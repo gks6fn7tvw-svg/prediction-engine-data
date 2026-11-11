@@ -1,0 +1,187 @@
+{
+ "batch": "history/development/2026-09-23",
+ "manifest_sha256": "eb3be5e3b0ad19d0a0220be9509ac6e5d1b39360dfd02dc19980a12b6d9ecb3d",
+ "data_commit": "692ca1fc2938a9a686e452037db1e52de3f810bb",
+ "started_at": "2026-11-11T20:31:52.247687+00:00",
+ "failures": [],
+ "notes": [],
+ "cities": {
+  "NY": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-23T05:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f008.co.grib2",
+     "idx_line": "133:126180267:d=2026092221:TMP:2 m above ground:8 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 15.05
+    },
+    {
+     "valid_time_utc": "2026-09-23T20:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f023.co.grib2",
+     "idx_line": "133:130944930:d=2026092221:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 19.25
+    },
+    {
+     "valid_time_utc": "2026-09-24T01:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f028.co.grib2",
+     "idx_line": "133:128044624:d=2026092221:TMP:2 m above ground:28 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 16.05
+    }
+   ]
+  },
+  "CHI": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-23T18:00:00Z",
+     "s3_key": "blend.20260922/22/core/blend.t22z.core.f020.co.grib2",
+     "idx_line": "190:163661617:d=2026092222:TMP:2 m above ground:20 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 17.95
+    },
+    {
+     "valid_time_utc": "2026-09-23T19:00:00Z",
+     "s3_key": "blend.20260922/22/core/blend.t22z.core.f021.co.grib2",
+     "idx_line": "133:130619383:d=2026092222:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.05
+    },
+    {
+     "valid_time_utc": "2026-09-23T22:00:00Z",
+     "s3_key": "blend.20260922/22/core/blend.t22z.core.f024.co.grib2",
+     "idx_line": "133:130659593:d=2026092222:TMP:2 m above ground:24 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 16.95
+    }
+   ]
+  },
+  "MIA": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-23T10:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f013.co.grib2",
+     "idx_line": "133:127525400:d=2026092221:TMP:2 m above ground:13 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 24.95
+    },
+    {
+     "valid_time_utc": "2026-09-23T16:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f019.co.grib2",
+     "idx_line": "133:128498289:d=2026092221:TMP:2 m above ground:19 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 28.45
+    },
+    {
+     "valid_time_utc": "2026-09-23T19:00:00Z",
+     "s3_key": "blend.20260922/21/core/blend.t21z.core.f022.co.grib2",
+     "idx_line": "133:130458015:d=2026092221:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.55
+    }
+   ]
+  },
+  "DEN": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-23T12:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f013.co.grib2",
+     "idx_line": "189:162071812:d=2026092223:TMP:2 m above ground:13 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 15.85
+    },
+    {
+     "valid_time_utc": "2026-09-23T21:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f022.co.grib2",
+     "idx_line": "135:132421903:d=2026092223:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 24.75
+    },
+    {
+     "valid_time_utc": "2026-09-24T04:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f029.co.grib2",
+     "idx_line": "133:126026045:d=2026092223:TMP:2 m above ground:29 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.55
+    }
+   ]
+  },
+  "LAX": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-23T20:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f021.co.grib2",
+     "idx_line": "133:131368486:d=2026092223:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.05
+    },
+    {
+     "valid_time_utc": "2026-09-23T21:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f022.co.grib2",
+     "idx_line": "135:132421903:d=2026092223:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.85
+    },
+    {
+     "valid_time_utc": "2026-09-24T02:00:00Z",
+     "s3_key": "blend.20260922/23/core/blend.t23z.core.f027.co.grib2",
+     "idx_line": "133:126768328:d=2026092223:TMP:2 m above ground:27 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 23.15
+    }
+   ]
+  }
+ },
+ "transient_errors": [],
+ "offline": {
+  "passed_checks": 635,
+  "failures": [],
+  "primary_complete": {
+   "NY": true,
+   "CHI": true,
+   "MIA": false,
+   "DEN": false,
+   "LAX": true
+  },
+  "inclusive_complete": {
+   "NY": true,
+   "CHI": true,
+   "MIA": true,
+   "DEN": true,
+   "LAX": true
+  },
+  "notes": [
+   "NY: midpoints sum to 0.9950; oldest quote 120 s",
+   "NY: NBM hourly max 66.6F vs settled 67.00F",
+   "CHI: midpoints sum to 1.0450; oldest quote 60 s",
+   "CHI: NBM hourly max 64.5F vs settled 65.00F",
+   "MIA: midpoints sum to 0.9900; oldest quote 900 s",
+   "MIA: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHMIA-26SEP23-T82']",
+   "MIA: NBM hourly max 83.2F vs settled 83.00F",
+   "DEN: midpoints sum to 1.0550; oldest quote 660 s",
+   "DEN: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHDEN-26SEP23-T83']",
+   "DEN: NBM hourly max 76.5F vs settled 72.00F",
+   "LAX: midpoints sum to 1.0400; oldest quote 0 s",
+   "LAX: NBM hourly max 80.7F vs settled 78.00F"
+  ]
+ },
+ "finished_at": "2026-11-11T20:32:48.142465+00:00",
+ "status": "ok",
+ "ok": true,
+ "code_version": "a797efb678b4888fe30b4c92cec60fa3f6ca26ce"
+}
