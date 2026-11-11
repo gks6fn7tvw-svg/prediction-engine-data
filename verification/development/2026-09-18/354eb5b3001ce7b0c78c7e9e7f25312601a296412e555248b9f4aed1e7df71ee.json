@@ -1,0 +1,187 @@
+{
+ "batch": "history/development/2026-09-18",
+ "manifest_sha256": "354eb5b3001ce7b0c78c7e9e7f25312601a296412e555248b9f4aed1e7df71ee",
+ "data_commit": "36bb753107d17da10631a98360d34de7f41eb9d7",
+ "started_at": "2026-11-11T19:31:46.601544+00:00",
+ "failures": [],
+ "notes": [],
+ "cities": {
+  "NY": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-18T08:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f011.co.grib2",
+     "idx_line": "133:125751447:d=2026091721:TMP:2 m above ground:11 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.85
+    },
+    {
+     "valid_time_utc": "2026-09-18T20:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f023.co.grib2",
+     "idx_line": "133:132149784:d=2026091721:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.05
+    },
+    {
+     "valid_time_utc": "2026-09-19T04:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f031.co.grib2",
+     "idx_line": "133:126718573:d=2026091721:TMP:2 m above ground:31 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 21.05
+    }
+   ]
+  },
+  "CHI": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-18T18:00:00Z",
+     "s3_key": "blend.20260917/22/core/blend.t22z.core.f020.co.grib2",
+     "idx_line": "190:164209626:d=2026091722:TMP:2 m above ground:20 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.05
+    },
+    {
+     "valid_time_utc": "2026-09-18T19:00:00Z",
+     "s3_key": "blend.20260917/22/core/blend.t22z.core.f021.co.grib2",
+     "idx_line": "133:131793091:d=2026091722:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.05
+    },
+    {
+     "valid_time_utc": "2026-09-19T00:00:00Z",
+     "s3_key": "blend.20260917/22/core/blend.t22z.core.f026.co.grib2",
+     "idx_line": "193:168140012:d=2026091722:TMP:2 m above ground:26 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 19.65
+    }
+   ]
+  },
+  "MIA": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-18T12:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f015.co.grib2",
+     "idx_line": "189:162096444:d=2026091721:TMP:2 m above ground:15 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 25.85
+    },
+    {
+     "valid_time_utc": "2026-09-18T16:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f019.co.grib2",
+     "idx_line": "133:128944608:d=2026091721:TMP:2 m above ground:19 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 30.55
+    },
+    {
+     "valid_time_utc": "2026-09-18T20:00:00Z",
+     "s3_key": "blend.20260917/21/core/blend.t21z.core.f023.co.grib2",
+     "idx_line": "133:132149784:d=2026091721:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.75
+    }
+   ]
+  },
+  "DEN": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-18T07:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f008.co.grib2",
+     "idx_line": "133:125024425:d=2026091723:TMP:2 m above ground:8 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.35
+    },
+    {
+     "valid_time_utc": "2026-09-18T08:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f009.co.grib2",
+     "idx_line": "133:125375542:d=2026091723:TMP:2 m above ground:9 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.05
+    },
+    {
+     "valid_time_utc": "2026-09-18T20:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f021.co.grib2",
+     "idx_line": "133:132298260:d=2026091723:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.05
+    }
+   ]
+  },
+  "LAX": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-18T15:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f016.co.grib2",
+     "idx_line": "135:131407098:d=2026091723:TMP:2 m above ground:16 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.85
+    },
+    {
+     "valid_time_utc": "2026-09-18T16:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f017.co.grib2",
+     "idx_line": "133:130494682:d=2026091723:TMP:2 m above ground:17 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 19.95
+    },
+    {
+     "valid_time_utc": "2026-09-18T22:00:00Z",
+     "s3_key": "blend.20260917/23/core/blend.t23z.core.f023.co.grib2",
+     "idx_line": "133:131722551:d=2026091723:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 23.05
+    }
+   ]
+  }
+ },
+ "transient_errors": [],
+ "offline": {
+  "passed_checks": 635,
+  "failures": [],
+  "primary_complete": {
+   "NY": false,
+   "CHI": true,
+   "MIA": true,
+   "DEN": true,
+   "LAX": false
+  },
+  "inclusive_complete": {
+   "NY": true,
+   "CHI": true,
+   "MIA": true,
+   "DEN": true,
+   "LAX": true
+  },
+  "notes": [
+   "NY: midpoints sum to 1.0700; oldest quote 5880 s",
+   "NY: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHNY-26SEP18-B86.5', 'KXHIGHNY-26SEP18-T87']",
+   "NY: NBM hourly max 80.7F vs settled 80.00F",
+   "CHI: midpoints sum to 0.9950; oldest quote 0 s",
+   "CHI: NBM hourly max 71.7F vs settled 72.00F",
+   "MIA: midpoints sum to 1.0200; oldest quote 180 s",
+   "MIA: NBM hourly max 87.0F vs settled 90.00F",
+   "DEN: midpoints sum to 1.0100; oldest quote 780 s",
+   "DEN: NBM hourly max 78.9F vs settled 86.00F",
+   "LAX: midpoints sum to 1.0300; oldest quote 0 s",
+   "LAX: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHLAX-26SEP18-T72']",
+   "LAX: NBM hourly max 73.5F vs settled 77.00F"
+  ]
+ },
+ "finished_at": "2026-11-11T19:32:38.166400+00:00",
+ "status": "ok",
+ "ok": true,
+ "code_version": "a797efb678b4888fe30b4c92cec60fa3f6ca26ce"
+}
