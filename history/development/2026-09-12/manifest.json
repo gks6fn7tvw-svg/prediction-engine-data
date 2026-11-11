@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "partition": "development",
+  "target_date": "2026-09-12",
+  "holdout": {
+    "start_target_date": "2026-10-01",
+    "end_target_date_inclusive": "2026-11-11",
+    "registration": "https://github.com/gks6fn7tvw-svg/prediction-engine/issues/2#issuecomment-6791557571"
+  },
+  "nbm_bucket": "noaa-nbm-grib2-pds",
+  "quote_age_cap_seconds": null,
+  "cities": {
+    "NY": {
+      "event_ticker": "KXHIGHNY-26SEP12",
+      "cutoff_utc": "2026-09-11T22:00:00Z",
+      "climate_day_start_utc": "2026-09-12T05:00:00Z",
+      "climate_day_end_exclusive_utc": "2026-09-13T05:00:00Z",
+      "market_count": 6,
+      "final_binary_count": 6,
+      "yes_winner_ticker": "KXHIGHNY-26SEP12-B77.5",
+      "quote_lookback_seconds": 7200,
+      "quotes": {
+        "KXHIGHNY-26SEP12-B81.5": {
+          "candle_end_unix": 1789163940,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.0300",
+          "yes_ask_close_dollars": "0.0400"
+        },
+        "KXHIGHNY-26SEP12-T82": {
+          "candle_end_unix": 1789161660,
+          "age_seconds": 2340,
+          "yes_bid_close_dollars": "0.0000",
+          "yes_ask_close_dollars": "0.0100"
+        },
+        "KXHIGHNY-26SEP12-B77.5": {
+          "candle_end_unix": 1789163940,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.4700",
+          "yes_ask_close_dollars": "0.4900"
+        },
+        "KXHIGHNY-26SEP12-B79.5": {
+          "candle_end_unix": 1789164000,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.3700",
+          "yes_ask_close_dollars": "0.3800"
+        },
+        "KXHIGHNY-26SEP12-T75": {
+          "candle_end_unix": 1789163760,
+          "age_seconds": 240,
+          "yes_bid_close_dollars": "0.0200",
+          "yes_ask_close_dollars": "0.0300"
+        },
+        "KXHIGHNY-26SEP12-B75.5": {
+          "candle_end_unix": 1789163760,
+          "age_seconds": 240,
+          "yes_bid_close_dollars": "0.1200",
+          "yes_ask_close_dollars": "0.1300"
+        }
+      },
+      "kalshi_sources": {
+        "markets": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHNY-26SEP12&limit=200",
+          "path": "NY/markets.json",
+          "saved_at_utc": "2026-11-11T18:45:16.376083Z"
+        },
+        "candles": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets/candlesticks?market_tickers=KXHIGHNY-26SEP12-B75.5%2CKXHIGHNY-26SEP12-B77.5%2CKXHIGHNY-26SEP12-B79.5%2CKXHIGHNY-26SEP12-B81.5%2CKXHIGHNY-26SEP12-T75%2CKXHIGHNY-26SEP12-T82&start_ts=1789156800&end_ts=1789164000&period_interval=1&include_latest_before_start=false",
+          "path": "NY/candles.json",
+          "saved_at_utc": "2026-11-11T18:45:20.393058Z"
+        }
+      },
+      "forecast_path": "NY/nbm.json",
+      "forecast_cycle_utc": "2026-09-11T21:00:00Z",
+      "forecast_hour_count": 24
+    },
+    "CHI": {
+      "event_ticker": "KXHIGHCHI-26SEP12",
+      "cutoff_utc": "2026-09-11T23:00:00Z",
+      "climate_day_start_utc": "2026-09-12T06:00:00Z",
+      "climate_day_end_exclusive_utc": "2026-09-13T06:00:00Z",
+      "market_count": 6,
+      "final_binary_count": 6,
+      "yes_winner_ticker": "KXHIGHCHI-26SEP12-B88.5",
+      "quote_lookback_seconds": 7200,
+      "quotes": {
+        "KXHIGHCHI-26SEP12-T84": {
+          "candle_end_unix": 1789167480,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.0400",
+          "yes_ask_close_dollars": "0.0500"
+        },
+        "KXHIGHCHI-26SEP12-B88.5": {
+          "candle_end_unix": 1789167600,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.2400",
+          "yes_ask_close_dollars": "0.2500"
+        },
+        "KXHIGHCHI-26SEP12-B84.5": {
+          "candle_end_unix": 1789167480,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.1600",
+          "yes_ask_close_dollars": "0.1700"
+        },
+        "KXHIGHCHI-26SEP12-B90.5": {
+          "candle_end_unix": 1789167540,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.0400",
+          "yes_ask_close_dollars": "0.0500"
+        },
+        "KXHIGHCHI-26SEP12-T91": {
+          "candle_end_unix": 1789167480,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.0100",
+          "yes_ask_close_dollars": "0.0200"
+        },
+        "KXHIGHCHI-26SEP12-B86.5": {
+          "candle_end_unix": 1789167600,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.4900",
+          "yes_ask_close_dollars": "0.5000"
+        }
+      },
+      "kalshi_sources": {
+        "markets": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHCHI-26SEP12&limit=200",
+          "path": "CHI/markets.json",
+          "saved_at_utc": "2026-11-11T18:45:32.607744Z"
+        },
+        "candles": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets/candlesticks?market_tickers=KXHIGHCHI-26SEP12-B84.5%2CKXHIGHCHI-26SEP12-B86.5%2CKXHIGHCHI-26SEP12-B88.5%2CKXHIGHCHI-26SEP12-B90.5%2CKXHIGHCHI-26SEP12-T84%2CKXHIGHCHI-26SEP12-T91&start_ts=1789160400&end_ts=1789167600&period_interval=1&include_latest_before_start=false",
+          "path": "CHI/candles.json",
+          "saved_at_utc": "2026-11-11T18:45:35.928504Z"
+        }
+      },
+      "forecast_path": "CHI/nbm.json",
+      "forecast_cycle_utc": "2026-09-11T22:00:00Z",
+      "forecast_hour_count": 24
+    },
+    "MIA": {
+      "event_ticker": "KXHIGHMIA-26SEP12",
+      "cutoff_utc": "2026-09-11T22:00:00Z",
+      "climate_day_start_utc": "2026-09-12T05:00:00Z",
+      "climate_day_end_exclusive_utc": "2026-09-13T05:00:00Z",
+      "market_count": 6,
+      "final_binary_count": 6,
+      "yes_winner_ticker": "KXHIGHMIA-26SEP12-B92.5",
+      "quote_lookback_seconds": 7200,
+      "quotes": {
+        "KXHIGHMIA-26SEP12-B86.5": {
+          "candle_end_unix": 1789164000,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.0600",
+          "yes_ask_close_dollars": "0.0700"
+        },
+        "KXHIGHMIA-26SEP12-T86": {
+          "candle_end_unix": 1789163640,
+          "age_seconds": 360,
+          "yes_bid_close_dollars": "0.0100",
+          "yes_ask_close_dollars": "0.0200"
+        },
+        "KXHIGHMIA-26SEP12-B90.5": {
+          "candle_end_unix": 1789163940,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.5100",
+          "yes_ask_close_dollars": "0.5300"
+        },
+        "KXHIGHMIA-26SEP12-B88.5": {
+          "candle_end_unix": 1789163940,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.2700",
+          "yes_ask_close_dollars": "0.2800"
+        },
+        "KXHIGHMIA-26SEP12-T93": {
+          "candle_end_unix": 1789164000,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.0200",
+          "yes_ask_close_dollars": "0.0400"
+        },
+        "KXHIGHMIA-26SEP12-B92.5": {
+          "candle_end_unix": 1789163940,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.1300",
+          "yes_ask_close_dollars": "0.1400"
+        }
+      },
+      "kalshi_sources": {
+        "markets": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHMIA-26SEP12&limit=200",
+          "path": "MIA/markets.json",
+          "saved_at_utc": "2026-11-11T18:45:39.539932Z"
+        },
+        "candles": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets/candlesticks?market_tickers=KXHIGHMIA-26SEP12-B86.5%2CKXHIGHMIA-26SEP12-B88.5%2CKXHIGHMIA-26SEP12-B90.5%2CKXHIGHMIA-26SEP12-B92.5%2CKXHIGHMIA-26SEP12-T86%2CKXHIGHMIA-26SEP12-T93&start_ts=1789156800&end_ts=1789164000&period_interval=1&include_latest_before_start=false",
+          "path": "MIA/candles.json",
+          "saved_at_utc": "2026-11-11T18:45:43.151627Z"
+        }
+      },
+      "forecast_path": "MIA/nbm.json",
+      "forecast_cycle_utc": "2026-09-11T21:00:00Z",
+      "forecast_hour_count": 24
+    },
+    "DEN": {
+      "event_ticker": "KXHIGHDEN-26SEP12",
+      "cutoff_utc": "2026-09-12T00:00:00Z",
+      "climate_day_start_utc": "2026-09-12T07:00:00Z",
+      "climate_day_end_exclusive_utc": "2026-09-13T07:00:00Z",
+      "market_count": 6,
+      "final_binary_count": 6,
+      "yes_winner_ticker": "KXHIGHDEN-26SEP12-T80",
+      "quote_lookback_seconds": 7200,
+      "quotes": {
+        "KXHIGHDEN-26SEP12-B82.5": {
+          "candle_end_unix": 1789171140,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.2600",
+          "yes_ask_close_dollars": "0.2700"
+        },
+        "KXHIGHDEN-26SEP12-B80.5": {
+          "candle_end_unix": 1789171140,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.1600",
+          "yes_ask_close_dollars": "0.1900"
+        },
+        "KXHIGHDEN-26SEP12-T87": {
+          "candle_end_unix": 1789170720,
+          "age_seconds": 480,
+          "yes_bid_close_dollars": "0.0100",
+          "yes_ask_close_dollars": "0.0200"
+        },
+        "KXHIGHDEN-26SEP12-B86.5": {
+          "candle_end_unix": 1789171020,
+          "age_seconds": 180,
+          "yes_bid_close_dollars": "0.0700",
+          "yes_ask_close_dollars": "0.0800"
+        },
+        "KXHIGHDEN-26SEP12-T80": {
+          "candle_end_unix": 1789171200,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.1500",
+          "yes_ask_close_dollars": "0.2300"
+        },
+        "KXHIGHDEN-26SEP12-B84.5": {
+          "candle_end_unix": 1789171200,
+          "age_seconds": 0,
+          "yes_bid_close_dollars": "0.3400",
+          "yes_ask_close_dollars": "0.3500"
+        }
+      },
+      "kalshi_sources": {
+        "markets": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26SEP12&limit=200",
+          "path": "DEN/markets.json",
+          "saved_at_utc": "2026-11-11T18:45:56.687748Z"
+        },
+        "candles": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets/candlesticks?market_tickers=KXHIGHDEN-26SEP12-B80.5%2CKXHIGHDEN-26SEP12-B82.5%2CKXHIGHDEN-26SEP12-B84.5%2CKXHIGHDEN-26SEP12-B86.5%2CKXHIGHDEN-26SEP12-T80%2CKXHIGHDEN-26SEP12-T87&start_ts=1789164000&end_ts=1789171200&period_interval=1&include_latest_before_start=false",
+          "path": "DEN/candles.json",
+          "saved_at_utc": "2026-11-11T18:46:00.386312Z"
+        }
+      },
+      "forecast_path": "DEN/nbm.json",
+      "forecast_cycle_utc": "2026-09-11T23:00:00Z",
+      "forecast_hour_count": 24
+    },
+    "LAX": {
+      "event_ticker": "KXHIGHLAX-26SEP12",
+      "cutoff_utc": "2026-09-12T01:00:00Z",
+      "climate_day_start_utc": "2026-09-12T08:00:00Z",
+      "climate_day_end_exclusive_utc": "2026-09-13T08:00:00Z",
+      "market_count": 6,
+      "final_binary_count": 6,
+      "yes_winner_ticker": "KXHIGHLAX-26SEP12-B81.5",
+      "quote_lookback_seconds": 7200,
+      "quotes": {
+        "KXHIGHLAX-26SEP12-T84": {
+          "candle_end_unix": 1789174740,
+          "age_seconds": 60,
+          "yes_bid_close_dollars": "0.1300",
+          "yes_ask_close_dollars": "0.1400"
+        },
+        "KXHIGHLAX-26SEP12-B77.5": {
+          "candle_end_unix": 1789174680,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.0200",
+          "yes_ask_close_dollars": "0.0300"
+        },
+        "KXHIGHLAX-26SEP12-B81.5": {
+          "candle_end_unix": 1789174680,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.3400",
+          "yes_ask_close_dollars": "0.3500"
+        },
+        "KXHIGHLAX-26SEP12-B83.5": {
+          "candle_end_unix": 1789174680,
+          "age_seconds": 120,
+          "yes_bid_close_dollars": "0.4200",
+          "yes_ask_close_dollars": "0.4300"
+        },
+        "KXHIGHLAX-26SEP12-B79.5": {
+          "candle_end_unix": 1789174560,
+          "age_seconds": 240,
+          "yes_bid_close_dollars": "0.1000",
+          "yes_ask_close_dollars": "0.1100"
+        },
+        "KXHIGHLAX-26SEP12-T77": {
+          "candle_end_unix": 1789171440,
+          "age_seconds": 3360,
+          "yes_bid_close_dollars": "0.0000",
+          "yes_ask_close_dollars": "0.0100"
+        }
+      },
+      "kalshi_sources": {
+        "markets": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26SEP12&limit=200",
+          "path": "LAX/markets.json",
+          "saved_at_utc": "2026-11-11T18:46:12.113492Z"
+        },
+        "candles": {
+          "url": "https://external-api.kalshi.com/trade-api/v2/markets/candlesticks?market_tickers=KXHIGHLAX-26SEP12-B77.5%2CKXHIGHLAX-26SEP12-B79.5%2CKXHIGHLAX-26SEP12-B81.5%2CKXHIGHLAX-26SEP12-B83.5%2CKXHIGHLAX-26SEP12-T77%2CKXHIGHLAX-26SEP12-T84&start_ts=1789167600&end_ts=1789174800&period_interval=1&include_latest_before_start=false",
+          "path": "LAX/candles.json",
+          "saved_at_utc": "2026-11-11T18:46:16.767036Z"
+        }
+      },
+      "forecast_path": "LAX/nbm.json",
+      "forecast_cycle_utc": "2026-09-11T23:00:00Z",
+      "forecast_hour_count": 24
+    }
+  },
+  "files": {
+    "CHI/candles.json": {
+      "bytes": 137903,
+      "sha256": "d86c1fbeeac484a430ef7e27fcd80cef5c4b64759eb13411a5e777ffb3e3df94"
+    },
+    "CHI/markets.json": {
+      "bytes": 17639,
+      "sha256": "59c12acb2ebcce32d5f34fa55fd1f05a5a637e71b3c731b435a223a3a657fe56"
+    },
+    "CHI/nbm.json": {
+      "bytes": 21701,
+      "sha256": "f4a8624be1ee764b3ac57f4d5a43823834496a4902397d36d56e4108291d5ea3"
+    },
+    "DEN/candles.json": {
+      "bytes": 64767,
+      "sha256": "4782be10b2bab6a31b1836d9c0e4d41eea01e1cf41bb996367bf3eb004251e6d"
+    },
+    "DEN/markets.json": {
+      "bytes": 17631,
+      "sha256": "da5d61e495b7a831e4f7b6f95c9aa483dd830b1a510bd8ca35b727a04b99678e"
+    },
+    "DEN/nbm.json": {
+      "bytes": 21724,
+      "sha256": "d94ca6d73841a85fb7cb016e9d86e41ae3a2190404bbd0b49788040dffa2d53b"
+    },
+    "LAX/candles.json": {
+      "bytes": 131721,
+      "sha256": "f57b60e41328bce7007366fc2140e4478560d2d01532e2d674416b25a81be255"
+    },
+    "LAX/markets.json": {
+      "bytes": 17669,
+      "sha256": "4faf38fb3e049f6be16533864ebd748df9a238c16f5f4768d431468f4f1ac06c"
+    },
+    "LAX/nbm.json": {
+      "bytes": 21713,
+      "sha256": "2186c8e7c2f8cc288f639fcc7c9de0fa22f8b2967610f9d7c0198c80dcdd8458"
+    },
+    "MIA/candles.json": {
+      "bytes": 120391,
+      "sha256": "2aba2c2ddece08d63d77b787df138608d63647878a618c0bec787411ac34b99f"
+    },
+    "MIA/markets.json": {
+      "bytes": 17631,
+      "sha256": "b27f0acaddeb13a8186f5eb3019ac37b6ab132f1fcb0d4eb9ef18dd82f7be5c0"
+    },
+    "MIA/nbm.json": {
+      "bytes": 21712,
+      "sha256": "5981dc0b38e257866cd4de7add191afd699920b73cb810dd39c874c3b46f551e"
+    },
+    "NY/candles.json": {
+      "bytes": 102847,
+      "sha256": "7205be95895d1a262cfba3fcaef652262ac63aff922201e62ccf45aa231473d4"
+    },
+    "NY/markets.json": {
+      "bytes": 17663,
+      "sha256": "1f4ce0586d5cb4669628e6617d64fa60594a74829ce9ef1b2f3605959da16524"
+    },
+    "NY/nbm.json": {
+      "bytes": 21744,
+      "sha256": "aac567650bf51f8dc12db53f453d3932b3385faaaedffb5839434341e9db0f7b"
+    }
+  }
+}
