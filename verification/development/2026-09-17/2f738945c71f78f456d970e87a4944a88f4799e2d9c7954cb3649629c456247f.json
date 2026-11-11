@@ -1,0 +1,188 @@
+{
+ "batch": "history/development/2026-09-17",
+ "manifest_sha256": "2f738945c71f78f456d970e87a4944a88f4799e2d9c7954cb3649629c456247f",
+ "data_commit": "36bb753107d17da10631a98360d34de7f41eb9d7",
+ "started_at": "2026-11-11T19:30:50.189867+00:00",
+ "failures": [],
+ "notes": [],
+ "cities": {
+  "NY": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-17T06:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f009.co.grib2",
+     "idx_line": "184:151462009:d=2026091621:TMP:2 m above ground:9 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.15
+    },
+    {
+     "valid_time_utc": "2026-09-17T15:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f018.co.grib2",
+     "idx_line": "135:130233652:d=2026091621:TMP:2 m above ground:18 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 25.15
+    },
+    {
+     "valid_time_utc": "2026-09-17T19:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f022.co.grib2",
+     "idx_line": "133:131899473:d=2026091621:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.75
+    }
+   ]
+  },
+  "CHI": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-17T18:00:00Z",
+     "s3_key": "blend.20260916/22/core/blend.t22z.core.f020.co.grib2",
+     "idx_line": "190:164637659:d=2026091622:TMP:2 m above ground:20 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 23.35
+    },
+    {
+     "valid_time_utc": "2026-09-17T19:00:00Z",
+     "s3_key": "blend.20260916/22/core/blend.t22z.core.f021.co.grib2",
+     "idx_line": "133:132005749:d=2026091622:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 23.25
+    },
+    {
+     "valid_time_utc": "2026-09-18T03:00:00Z",
+     "s3_key": "blend.20260916/22/core/blend.t22z.core.f029.co.grib2",
+     "idx_line": "135:128352188:d=2026091622:TMP:2 m above ground:29 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 19.95
+    }
+   ]
+  },
+  "MIA": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-17T05:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f008.co.grib2",
+     "idx_line": "133:123878741:d=2026091621:TMP:2 m above ground:8 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.05
+    },
+    {
+     "valid_time_utc": "2026-09-17T08:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f011.co.grib2",
+     "idx_line": "133:125445364:d=2026091621:TMP:2 m above ground:11 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.15
+    },
+    {
+     "valid_time_utc": "2026-09-17T16:00:00Z",
+     "s3_key": "blend.20260916/21/core/blend.t21z.core.f019.co.grib2",
+     "idx_line": "133:129578472:d=2026091621:TMP:2 m above ground:19 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 30.35
+    }
+   ]
+  },
+  "DEN": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-17T11:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f012.co.grib2",
+     "idx_line": "133:127266272:d=2026091623:TMP:2 m above ground:12 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.05
+    },
+    {
+     "valid_time_utc": "2026-09-17T14:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f015.co.grib2",
+     "idx_line": "133:130295652:d=2026091623:TMP:2 m above ground:15 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.75
+    },
+    {
+     "valid_time_utc": "2026-09-17T21:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f022.co.grib2",
+     "idx_line": "135:133468775:d=2026091623:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 27.25
+    }
+   ]
+  },
+  "LAX": {
+   "markets_match": true,
+   "candles_match": true,
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-09-17T11:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f012.co.grib2",
+     "idx_line": "133:127266272:d=2026091623:TMP:2 m above ground:12 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.65
+    },
+    {
+     "valid_time_utc": "2026-09-17T21:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f022.co.grib2",
+     "idx_line": "135:133468775:d=2026091623:TMP:2 m above ground:22 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.05
+    },
+    {
+     "valid_time_utc": "2026-09-17T23:00:00Z",
+     "s3_key": "blend.20260916/23/core/blend.t23z.core.f024.co.grib2",
+     "idx_line": "133:130729786:d=2026091623:TMP:2 m above ground:24 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.25
+    }
+   ]
+  }
+ },
+ "transient_errors": [],
+ "offline": {
+  "passed_checks": 635,
+  "failures": [],
+  "primary_complete": {
+   "NY": false,
+   "CHI": true,
+   "MIA": false,
+   "DEN": true,
+   "LAX": false
+  },
+  "inclusive_complete": {
+   "NY": true,
+   "CHI": true,
+   "MIA": true,
+   "DEN": true,
+   "LAX": true
+  },
+  "notes": [
+   "NY: midpoints sum to 1.0600; oldest quote 60 s",
+   "NY: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHNY-26SEP17-T87']",
+   "NY: NBM hourly max 81.9F vs settled 82.00F",
+   "CHI: midpoints sum to 1.0250; oldest quote 60 s",
+   "CHI: NBM hourly max 74.0F vs settled 82.00F",
+   "MIA: midpoints sum to 1.0100; oldest quote 60 s",
+   "MIA: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHMIA-26SEP17-T84']",
+   "MIA: NBM hourly max 86.6F vs settled 84.00F",
+   "DEN: midpoints sum to 1.0650; oldest quote 840 s",
+   "DEN: NBM hourly max 81.0F vs settled 84.00F",
+   "LAX: midpoints sum to 1.0650; oldest quote 0 s",
+   "LAX: boundary quotes ($0 bid or $1 ask), city-day incomplete for primary scoring: ['KXHIGHLAX-26SEP17-T82']",
+   "LAX: NBM hourly max 72.0F vs settled 78.00F"
+  ]
+ },
+ "finished_at": "2026-11-11T19:31:43.047554+00:00",
+ "status": "ok",
+ "ok": true,
+ "code_version": "a797efb678b4888fe30b4c92cec60fa3f6ca26ce"
+}
