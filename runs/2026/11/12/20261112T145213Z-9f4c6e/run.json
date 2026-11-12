@@ -1,0 +1,109 @@
+{
+ "run_id": "20261112T145213Z-9f4c6e",
+ "started_at": "2026-11-12T14:52:13.206031+00:00",
+ "code_version": "dbc45b99d88713b63823768b88f0770fe1d85ff9",
+ "cutoffs": [],
+ "missed": [],
+ "settlement": [],
+ "cli": [
+  {
+   "city": "NY",
+   "changed": false
+  },
+  {
+   "city": "CHI",
+   "changed": false
+  },
+  {
+   "city": "MIA",
+   "changed": false
+  },
+  {
+   "city": "DEN",
+   "changed": true
+  },
+  {
+   "city": "LAX",
+   "changed": false
+  }
+ ],
+ "fetches": [
+  {
+   "url": "https://forecast.weather.gov/product.php?site=OKX&issuedby=NYC&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T14:52:13.630818+00:00",
+   "received_at": "2026-11-12T14:52:14.001543+00:00",
+   "elapsed_seconds": 0.370729,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 14:52:13 GMT",
+   "bytes": 28213,
+   "sha256": "47e6fff925bbea5234f326b78a5fbf22a98d82106234ff3910c3337c2424145b",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOT&issuedby=MDW&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T14:52:14.001858+00:00",
+   "received_at": "2026-11-12T14:52:14.327891+00:00",
+   "elapsed_seconds": 0.326037,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 14:52:14 GMT",
+   "bytes": 27944,
+   "sha256": "3df2345106310f578f6e50dbf7027c90d0d0078b7ed1ec83e34aa9708c69f88b",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=MFL&issuedby=MIA&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T14:52:14.328043+00:00",
+   "received_at": "2026-11-12T14:52:14.832533+00:00",
+   "elapsed_seconds": 0.504496,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 14:52:14 GMT",
+   "bytes": 28078,
+   "sha256": "ca25b20870bba803ffcf92d4ddf4c138b0bc348090d089b4067b1577083e6cba",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=BOU&issuedby=DEN&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T14:52:14.832677+00:00",
+   "received_at": "2026-11-12T14:52:15.141609+00:00",
+   "elapsed_seconds": 0.308937,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 14:52:15 GMT",
+   "bytes": 27183,
+   "sha256": "f73acf4370ab47173f6762c74e75497df754d3f60d96f4031c550e866336bfef",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli",
+   "path": "cli/DEN/20261112T145213Z-9f4c6e.html",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOX&issuedby=LAX&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T14:52:15.141769+00:00",
+   "received_at": "2026-11-12T14:52:15.423710+00:00",
+   "elapsed_seconds": 0.281946,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 14:52:15 GMT",
+   "bytes": 28234,
+   "sha256": "cd37087c79ae810d5f01cc5032489b63269b4b5a19a0ce627c9d25025495716c",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  }
+ ],
+ "errors": [],
+ "noon": [],
+ "noon_missed": [],
+ "finished_at": "2026-11-12T14:52:15.423961+00:00",
+ "files": {
+  "cli/DEN/20261112T145213Z-9f4c6e.html": {
+   "bytes": 27183,
+   "sha256": "f73acf4370ab47173f6762c74e75497df754d3f60d96f4031c550e866336bfef"
+  }
+ }
+}
