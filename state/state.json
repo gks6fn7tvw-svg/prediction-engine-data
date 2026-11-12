@@ -4,6 +4,10 @@
    "last_sha256": "0b6f55fdef986f0a506f59260367b53b208f6f20c5f2005f79c5c39e0dfa76c3",
    "saved_at": "2026-11-12T00:00:03.014326+00:00"
   },
+  "DEN": {
+   "last_sha256": "54eb40ed38898268d80eb0b7958d3ccf9655b406439fce4211aa46f5aaceaf07",
+   "saved_at": "2026-11-12T01:00:03.324784+00:00"
+  },
   "MIA": {
    "last_sha256": "10a3d970d34c0e2b58cdcc8449cec25a31dd24093f4f92e458ee1e61f00e5513",
    "saved_at": "2026-11-11T23:00:02.388214+00:00"
@@ -22,6 +26,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.190381,
     "run_id": "20261111T235219Z-4dd39c",
+    "status": "captured"
+   }
+  },
+  "DEN": {
+   "2026-11-12": {
+    "cutoff_utc": "2026-11-12T01:00:00.000000+00:00",
+    "eligible": true,
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.198121,
+    "run_id": "20261112T005222Z-db2fce",
     "status": "captured"
    }
   },
@@ -54,6 +68,16 @@
    "first_seen": "2026-11-12T00:00:01.359576+00:00",
    "last_sig": null,
    "poll_after": "2026-11-13T06:00:00.000000+00:00",
+   "target_date": "2026-11-12",
+   "versions": 0
+  },
+  "KXHIGHDEN-26NOV12": {
+   "city": "DEN",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-12T01:00:01.376097+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-13T07:00:00.000000+00:00",
    "target_date": "2026-11-12",
    "versions": 0
   },

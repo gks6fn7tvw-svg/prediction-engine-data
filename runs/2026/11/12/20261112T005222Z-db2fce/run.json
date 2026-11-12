@@ -1,0 +1,365 @@
+{
+ "run_id": "20261112T005222Z-db2fce",
+ "started_at": "2026-11-12T00:52:22.311082+00:00",
+ "code_version": "9e3cd4d8fb3e1160bcf52d3ccb4c6b8259c12cb8",
+ "cutoffs": [
+  {
+   "cutoff_utc": "2026-11-12T01:00:00.000000+00:00",
+   "started_before_cutoff": true,
+   "cities": {
+    "DEN": {
+     "series": "KXHIGHDEN",
+     "event_ticker": "KXHIGHDEN-26NOV12",
+     "target_date": "2026-11-12",
+     "station": "KDEN",
+     "cutoff_local_zone": "America/Denver",
+     "climate_day_utc": [
+      "2026-11-12T07:00:00.000000+00:00",
+      "2026-11-13T07:00:00.000000+00:00"
+     ],
+     "tickers": [
+      "KXHIGHDEN-26NOV12-B64.5",
+      "KXHIGHDEN-26NOV12-B66.5",
+      "KXHIGHDEN-26NOV12-B68.5",
+      "KXHIGHDEN-26NOV12-B70.5",
+      "KXHIGHDEN-26NOV12-T64",
+      "KXHIGHDEN-26NOV12-T71"
+     ],
+     "problems": [],
+     "forecast": {
+      "grid_url": "https://api.weather.gov/gridpoints/BOU/75,66",
+      "hourly_requested_at": "2026-11-12T00:52:23.512555+00:00",
+      "fetched_before_cutoff": true,
+      "hourly_update_time": "2026-11-11T18:46:24+00:00",
+      "hourly_generated_at": "2026-11-12T00:52:23+00:00",
+      "hourly_points_in_climate_day": 24,
+      "hourly_max_in_climate_day": 66,
+      "hourly_unit": "F",
+      "gridpoint_update_time": "2026-11-11T18:46:24+00:00",
+      "gridpoint_max_temperature_uom": "wmoUnit:degC",
+      "gridpoint_max_temperature_near_day": [
+       {
+        "validTime": "2026-11-12T14:00:00+00:00/PT13H",
+        "value": 18.88888888888889
+       }
+      ]
+     },
+     "books_missing_first": [],
+     "books_missing_recheck": [],
+     "status": "captured",
+     "eligible": true,
+     "reason_code": "on_time"
+    }
+   },
+   "books": {
+    "tickers_requested": 6,
+    "tickers_returned_first": 6,
+    "unexpected_tickers_first": [],
+    "first_requested_at": "2026-11-12T01:00:00.000927+00:00",
+    "first_received_at": "2026-11-12T01:00:00.198121+00:00",
+    "request_lateness_seconds": 0.000927,
+    "receipt_lateness_seconds": 0.198121,
+    "lateness_limit_seconds": 600.0,
+    "timing_eligible": true,
+    "timing_reason_code": "on_time",
+    "recheck_gap_seconds": 1.000119,
+    "first_ok": true,
+    "recheck_ok": true,
+    "note": "timing is judged on first-book receipt time; each city's eligible and reason_code are authoritative, since a batch can omit one city's books; one batch request per snapshot is not proof of an atomic snapshot",
+    "quotes_first": {
+     "KXHIGHDEN-26NOV12-B64.5": {
+      "yes_bid": "0.0700",
+      "yes_bid_size": "45.00",
+      "yes_ask": "0.0800",
+      "yes_ask_size": "128.00"
+     },
+     "KXHIGHDEN-26NOV12-B66.5": {
+      "yes_bid": "0.5400",
+      "yes_bid_size": "2.76",
+      "yes_ask": "0.5500",
+      "yes_ask_size": "67.00"
+     },
+     "KXHIGHDEN-26NOV12-B68.5": {
+      "yes_bid": "0.3800",
+      "yes_bid_size": "1.00",
+      "yes_ask": "0.4000",
+      "yes_ask_size": "81.00"
+     },
+     "KXHIGHDEN-26NOV12-B70.5": {
+      "yes_bid": "0.0200",
+      "yes_bid_size": "444.05",
+      "yes_ask": "0.0300",
+      "yes_ask_size": "194.00"
+     },
+     "KXHIGHDEN-26NOV12-T64": {
+      "yes_bid": "0.0100",
+      "yes_bid_size": "10.00",
+      "yes_ask": "0.0200",
+      "yes_ask_size": "232.00"
+     },
+     "KXHIGHDEN-26NOV12-T71": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "305.00"
+     }
+    },
+    "quotes_recheck": {
+     "KXHIGHDEN-26NOV12-B64.5": {
+      "yes_bid": "0.0700",
+      "yes_bid_size": "45.00",
+      "yes_ask": "0.0800",
+      "yes_ask_size": "128.00"
+     },
+     "KXHIGHDEN-26NOV12-B66.5": {
+      "yes_bid": "0.5400",
+      "yes_bid_size": "2.76",
+      "yes_ask": "0.5500",
+      "yes_ask_size": "67.00"
+     },
+     "KXHIGHDEN-26NOV12-B68.5": {
+      "yes_bid": "0.3800",
+      "yes_bid_size": "1.00",
+      "yes_ask": "0.4000",
+      "yes_ask_size": "81.00"
+     },
+     "KXHIGHDEN-26NOV12-B70.5": {
+      "yes_bid": "0.0200",
+      "yes_bid_size": "444.05",
+      "yes_ask": "0.0300",
+      "yes_ask_size": "194.00"
+     },
+     "KXHIGHDEN-26NOV12-T64": {
+      "yes_bid": "0.0100",
+      "yes_bid_size": "10.00",
+      "yes_ask": "0.0200",
+      "yes_ask_size": "232.00"
+     },
+     "KXHIGHDEN-26NOV12-T71": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "305.00"
+     }
+    }
+   }
+  }
+ ],
+ "missed": [],
+ "settlement": [],
+ "cli": [
+  {
+   "city": "NY",
+   "changed": false
+  },
+  {
+   "city": "CHI",
+   "changed": false
+  },
+  {
+   "city": "MIA",
+   "changed": false
+  },
+  {
+   "city": "DEN",
+   "changed": true
+  }
+ ],
+ "fetches": [
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/series/KXHIGHDEN",
+   "requested_at": "2026-11-12T00:52:22.789853+00:00",
+   "received_at": "2026-11-12T00:52:22.976771+00:00",
+   "elapsed_seconds": 0.186922,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 00:52:22 GMT",
+   "bytes": 1533,
+   "sha256": "9f7becc1193ab7487194aa06eea8639e9a103f4727a3ff17de26999846b8dcc4",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_series",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/kalshi_series.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXHIGHDEN&status=open&limit=200",
+   "requested_at": "2026-11-12T00:52:22.976876+00:00",
+   "received_at": "2026-11-12T00:52:23.193480+00:00",
+   "elapsed_seconds": 0.21661,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 00:52:23 GMT",
+   "bytes": 35252,
+   "sha256": "37989513e591f85c78b0bcab221198ddfd65e2610e513a05aa4ddb9f92d9ecae",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_markets",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/kalshi_markets.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://api.weather.gov/points/39.8466,-104.6562",
+   "requested_at": "2026-11-12T00:52:23.193895+00:00",
+   "received_at": "2026-11-12T00:52:23.512420+00:00",
+   "elapsed_seconds": 0.31853,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 00:52:23 GMT",
+   "bytes": 3918,
+   "sha256": "1e621aa67c74bb4ba6a5672ba3d193190137fae2e4a0372a09adff88c2006b92",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_points",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_points.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://api.weather.gov/gridpoints/BOU/75,66/forecast/hourly",
+   "requested_at": "2026-11-12T00:52:23.512555+00:00",
+   "received_at": "2026-11-12T00:52:23.829966+00:00",
+   "elapsed_seconds": 0.317416,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 00:52:23 GMT",
+   "bytes": 163045,
+   "sha256": "f1c439d8af36e1db1a0324b5f5bb22a532493a1042b30fb943bc4a2ddd0ebd70",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_hourly",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_hourly.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://api.weather.gov/gridpoints/BOU/75,66",
+   "requested_at": "2026-11-12T00:52:23.830142+00:00",
+   "received_at": "2026-11-12T00:52:24.059147+00:00",
+   "elapsed_seconds": 0.229009,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 00:52:24 GMT",
+   "bytes": 233374,
+   "sha256": "483dfcad77d4ff63f4ebefc1b9fbe897d8c4912d69100115e390f2aba20bf95d",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_gridpoint",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_gridpoint.json.gz",
+   "stored_gzip": true
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets/orderbooks?tickers=KXHIGHDEN-26NOV12-B64.5&tickers=KXHIGHDEN-26NOV12-B66.5&tickers=KXHIGHDEN-26NOV12-B68.5&tickers=KXHIGHDEN-26NOV12-B70.5&tickers=KXHIGHDEN-26NOV12-T64&tickers=KXHIGHDEN-26NOV12-T71",
+   "requested_at": "2026-11-12T01:00:00.000927+00:00",
+   "received_at": "2026-11-12T01:00:00.198121+00:00",
+   "elapsed_seconds": 0.197195,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:00 GMT",
+   "bytes": 6546,
+   "sha256": "6ce3961d6cccd07d5022f2cd77fcb6c8ed61de965674d2d9829f6eeb5a83571a",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_books_1",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/books_1.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets/orderbooks?tickers=KXHIGHDEN-26NOV12-B64.5&tickers=KXHIGHDEN-26NOV12-B66.5&tickers=KXHIGHDEN-26NOV12-B68.5&tickers=KXHIGHDEN-26NOV12-B70.5&tickers=KXHIGHDEN-26NOV12-T64&tickers=KXHIGHDEN-26NOV12-T71",
+   "requested_at": "2026-11-12T01:00:01.198240+00:00",
+   "received_at": "2026-11-12T01:00:01.375477+00:00",
+   "elapsed_seconds": 0.177237,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:01 GMT",
+   "bytes": 6546,
+   "sha256": "6ce3961d6cccd07d5022f2cd77fcb6c8ed61de965674d2d9829f6eeb5a83571a",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_books_2",
+   "path": "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/books_2.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=OKX&issuedby=NYC&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T01:00:01.376247+00:00",
+   "received_at": "2026-11-12T01:00:01.849384+00:00",
+   "elapsed_seconds": 0.473142,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:01 GMT",
+   "bytes": 28246,
+   "sha256": "bd620eaa0e183a3eabfa16a73f19b61a96b1e7e8def954cd7a7558fc1ac1efb6",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOT&issuedby=MDW&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T01:00:01.849722+00:00",
+   "received_at": "2026-11-12T01:00:02.430141+00:00",
+   "elapsed_seconds": 0.580424,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:02 GMT",
+   "bytes": 27977,
+   "sha256": "625542df827818bc3c41780ef6a6e981cc828ae36eb1abe26e79dc21013ab15f",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=MFL&issuedby=MIA&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T01:00:02.430288+00:00",
+   "received_at": "2026-11-12T01:00:02.735044+00:00",
+   "elapsed_seconds": 0.30476,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:02 GMT",
+   "bytes": 28087,
+   "sha256": "9c2523186130c47aae5fa6dcd92e7c5517e43d0301c0ca56475e927b54382384",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=BOU&issuedby=DEN&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-12T01:00:02.735207+00:00",
+   "received_at": "2026-11-12T01:00:03.324784+00:00",
+   "elapsed_seconds": 0.589584,
+   "http_status": 200,
+   "server_date": "Thu, 12 Nov 2026 01:00:03 GMT",
+   "bytes": 27979,
+   "sha256": "e6251452e6c0803cd38d10dd60f7e909e446e96f97bc028383ff9eb26c50e09d",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli",
+   "path": "cli/DEN/20261112T005222Z-db2fce.html",
+   "stored_gzip": false
+  }
+ ],
+ "errors": [],
+ "finished_at": "2026-11-12T01:00:03.325096+00:00",
+ "files": {
+  "cli/DEN/20261112T005222Z-db2fce.html": {
+   "bytes": 27979,
+   "sha256": "e6251452e6c0803cd38d10dd60f7e909e446e96f97bc028383ff9eb26c50e09d"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/kalshi_markets.json": {
+   "bytes": 35252,
+   "sha256": "37989513e591f85c78b0bcab221198ddfd65e2610e513a05aa4ddb9f92d9ecae"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/kalshi_series.json": {
+   "bytes": 1533,
+   "sha256": "9f7becc1193ab7487194aa06eea8639e9a103f4727a3ff17de26999846b8dcc4"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_gridpoint.json.gz": {
+   "bytes": 10043,
+   "sha256": "6627980799d94e3ccc863ba0a1f814b039e49c19695cf780c5f68aa5d7b3d784"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_hourly.json": {
+   "bytes": 163045,
+   "sha256": "f1c439d8af36e1db1a0324b5f5bb22a532493a1042b30fb943bc4a2ddd0ebd70"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/DEN/nws_points.json": {
+   "bytes": 3918,
+   "sha256": "1e621aa67c74bb4ba6a5672ba3d193190137fae2e4a0372a09adff88c2006b92"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/books_1.json": {
+   "bytes": 6546,
+   "sha256": "6ce3961d6cccd07d5022f2cd77fcb6c8ed61de965674d2d9829f6eeb5a83571a"
+  },
+  "runs/2026/11/12/20261112T005222Z-db2fce/cutoff_20261112T0100Z/books_2.json": {
+   "bytes": 6546,
+   "sha256": "6ce3961d6cccd07d5022f2cd77fcb6c8ed61de965674d2d9829f6eeb5a83571a"
+  }
+ }
+}
