@@ -1,0 +1,154 @@
+{
+ "batch": "staging/holdout/2026-10-01",
+ "manifest_sha256": "9245746976bbf01e8ed3d185c0f584b390ae4014a59d3b7007fc07e810fe7a9f",
+ "data_commit": "ab0bb1d88f830c1aa8d9b96b4c2123de91ac3133",
+ "started_at": "2026-11-12T02:26:08.896017+00:00",
+ "failures": [],
+ "notes": [],
+ "cities": {
+  "NY": {
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-10-01T10:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f013.co.grib2",
+     "idx_line": "133:128343448:d=2026093021:TMP:2 m above ground:13 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 17.95
+    },
+    {
+     "valid_time_utc": "2026-10-01T20:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f023.co.grib2",
+     "idx_line": "133:132377429:d=2026093021:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 23.75
+    },
+    {
+     "valid_time_utc": "2026-10-02T02:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f029.co.grib2",
+     "idx_line": "133:127836472:d=2026093021:TMP:2 m above ground:29 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.05
+    }
+   ],
+   "note": "holdout: no forecast-vs-outcome comparison"
+  },
+  "CHI": {
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-10-01T10:00:00Z",
+     "s3_key": "blend.20260930/22/core/blend.t22z.core.f012.co.grib2",
+     "idx_line": "133:128387929:d=2026093022:TMP:2 m above ground:12 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.75
+    },
+    {
+     "valid_time_utc": "2026-10-01T17:00:00Z",
+     "s3_key": "blend.20260930/22/core/blend.t22z.core.f019.co.grib2",
+     "idx_line": "133:130430931:d=2026093022:TMP:2 m above ground:19 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.55
+    },
+    {
+     "valid_time_utc": "2026-10-01T18:00:00Z",
+     "s3_key": "blend.20260930/22/core/blend.t22z.core.f020.co.grib2",
+     "idx_line": "190:164595864:d=2026093022:TMP:2 m above ground:20 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 22.65
+    }
+   ],
+   "note": "holdout: no forecast-vs-outcome comparison"
+  },
+  "MIA": {
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-10-01T12:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f015.co.grib2",
+     "idx_line": "189:163033922:d=2026093021:TMP:2 m above ground:15 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 25.85
+    },
+    {
+     "valid_time_utc": "2026-10-01T16:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f019.co.grib2",
+     "idx_line": "133:129991142:d=2026093021:TMP:2 m above ground:19 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 28.45
+    },
+    {
+     "valid_time_utc": "2026-10-02T03:00:00Z",
+     "s3_key": "blend.20260930/21/core/blend.t21z.core.f030.co.grib2",
+     "idx_line": "135:128700046:d=2026093021:TMP:2 m above ground:30 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.75
+    }
+   ],
+   "note": "holdout: no forecast-vs-outcome comparison"
+  },
+  "DEN": {
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-10-01T17:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f018.co.grib2",
+     "idx_line": "133:130075974:d=2026093023:TMP:2 m above ground:18 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 17.25
+    },
+    {
+     "valid_time_utc": "2026-10-01T20:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f021.co.grib2",
+     "idx_line": "133:132510141:d=2026093023:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 18.95
+    },
+    {
+     "valid_time_utc": "2026-10-01T22:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f023.co.grib2",
+     "idx_line": "133:131693374:d=2026093023:TMP:2 m above ground:23 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 20.15
+    }
+   ],
+   "note": "holdout: no forecast-vs-outcome comparison"
+  },
+  "LAX": {
+   "later_complete_cycles": [],
+   "sampled_hours": [
+    {
+     "valid_time_utc": "2026-10-01T19:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f020.co.grib2",
+     "idx_line": "133:132276342:d=2026093023:TMP:2 m above ground:20 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 25.95
+    },
+    {
+     "valid_time_utc": "2026-10-01T20:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f021.co.grib2",
+     "idx_line": "133:132510141:d=2026093023:TMP:2 m above ground:21 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 26.25
+    },
+    {
+     "valid_time_utc": "2026-10-02T03:00:00Z",
+     "s3_key": "blend.20260930/23/core/blend.t23z.core.f028.co.grib2",
+     "idx_line": "135:128919657:d=2026093023:TMP:2 m above ground:28 hour fcst:",
+     "sha256_match": true,
+     "decoded_c": 21.85
+    }
+   ],
+   "note": "holdout: no forecast-vs-outcome comparison"
+  }
+ },
+ "transient_errors": [],
+ "offline": {
+  "passed_checks": 410,
+  "failures": []
+ },
+ "finished_at": "2026-11-12T02:26:54.958161+00:00",
+ "status": "ok",
+ "ok": true,
+ "code_version": "dbc45b99d88713b63823768b88f0770fe1d85ff9"
+}
