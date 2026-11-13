@@ -1,8 +1,8 @@
 {
  "cli": {
   "CHI": {
-   "last_sha256": "34f802c0430f55f468229fae648296e3855db042d3fd69b61c412c7587f86aff",
-   "saved_at": "2026-11-13T06:52:22.808282+00:00"
+   "last_sha256": "97cc2266a4e3637c17fc8289dfb1992f86e471cfd2c3f8e488b16846d65ca16d",
+   "saved_at": "2026-11-13T23:00:07.606760+00:00"
   },
   "DEN": {
    "last_sha256": "89d6d814e1bb057d5c84197019deae99c87779e69162f8593bc028ba990ada1b",
@@ -86,6 +86,16 @@
     "cutoff_utc": "2026-11-12T23:00:00.000000+00:00",
     "run_id": "20261112T235217Z-cb92f4",
     "status": "missed"
+   },
+   "2026-11-14": {
+    "cutoff_utc": "2026-11-13T23:00:00.000000+00:00",
+    "eligible": false,
+    "paper_fill_eligible": false,
+    "paper_fill_reason": "first_snapshot_ineligible",
+    "reason_code": "no_markets",
+    "receipt_lateness_seconds": 0.178583,
+    "run_id": "20261113T225217Z-56d288",
+    "status": "failed"
    }
   },
   "NY": {
@@ -101,6 +111,16 @@
     "cutoff_utc": "2026-11-12T23:00:00.000000+00:00",
     "run_id": "20261112T235217Z-cb92f4",
     "status": "missed"
+   },
+   "2026-11-14": {
+    "cutoff_utc": "2026-11-13T23:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.178583,
+    "run_id": "20261113T225217Z-56d288",
+    "status": "captured"
    }
   }
  },
@@ -164,6 +184,16 @@
    "poll_after": "2026-11-13T05:00:00.000000+00:00",
    "target_date": "2026-11-12",
    "versions": 3
+  },
+  "KXHIGHNY-26NOV14": {
+   "city": "NY",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-13T23:00:01.340491+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-15T05:00:00.000000+00:00",
+   "target_date": "2026-11-14",
+   "versions": 0
   }
  },
  "live_check": {
