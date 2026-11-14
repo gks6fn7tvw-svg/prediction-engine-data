@@ -66,6 +66,16 @@
     "cutoff_utc": "2026-11-13T01:00:00.000000+00:00",
     "run_id": "20261113T025221Z-d8ffc2",
     "status": "missed"
+   },
+   "2026-11-14": {
+    "cutoff_utc": "2026-11-14T01:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.180519,
+    "run_id": "20261114T005219Z-bff3e2",
+    "status": "captured"
    }
   },
   "LAX": {
@@ -174,6 +184,16 @@
    "poll_after": "2026-11-13T07:00:00.000000+00:00",
    "target_date": "2026-11-12",
    "versions": 3
+  },
+  "KXHIGHDEN-26NOV14": {
+   "city": "DEN",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-14T01:00:01.341921+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-15T07:00:00.000000+00:00",
+   "target_date": "2026-11-14",
+   "versions": 0
   },
   "KXHIGHLAX-26NOV12": {
    "city": "LAX",
