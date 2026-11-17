@@ -1,0 +1,1225 @@
+{
+ "run_id": "20261117T165220Z-df0eb4",
+ "started_at": "2026-11-17T16:52:20.520795+00:00",
+ "code_version": "dbc45b99d88713b63823768b88f0770fe1d85ff9",
+ "cutoffs": [],
+ "missed": [],
+ "settlement": [
+  {
+   "event_ticker": "KXHIGHCHI-26NOV15",
+   "polled_at": "2026-11-17T17:00:01.395757+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHCHI-26NOV16",
+   "polled_at": "2026-11-17T17:00:01.607463+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHDEN-26NOV15",
+   "polled_at": "2026-11-17T17:00:01.806204+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHDEN-26NOV16",
+   "polled_at": "2026-11-17T17:00:02.036983+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV14",
+   "polled_at": "2026-11-17T17:00:02.235988+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV15",
+   "polled_at": "2026-11-17T17:00:02.434109+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV16",
+   "polled_at": "2026-11-17T17:00:02.650908+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHMIA-26NOV15",
+   "polled_at": "2026-11-17T17:00:02.870293+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHNY-26NOV15",
+   "polled_at": "2026-11-17T17:00:03.091175+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  }
+ ],
+ "cli": [
+  {
+   "city": "NY",
+   "changed": false
+  },
+  {
+   "city": "CHI",
+   "changed": false
+  },
+  {
+   "city": "MIA",
+   "changed": false
+  },
+  {
+   "city": "DEN",
+   "changed": false
+  },
+  {
+   "city": "LAX",
+   "changed": false
+  }
+ ],
+ "fetches": [
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXHIGHNY&status=open&limit=200",
+   "requested_at": "2026-11-17T16:52:20.904411+00:00",
+   "received_at": "2026-11-17T16:52:21.106416+00:00",
+   "elapsed_seconds": 0.202009,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 16:52:21 GMT",
+   "bytes": 35402,
+   "sha256": "5642bbf493bef901409ca72eee3536e47d4b2eb21bd914b0a1a9eab13ccfa636",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_kalshi_markets",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/NY/kalshi_markets.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXHIGHMIA&status=open&limit=200",
+   "requested_at": "2026-11-17T16:52:21.106783+00:00",
+   "received_at": "2026-11-17T16:52:21.317181+00:00",
+   "elapsed_seconds": 0.210404,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 16:52:21 GMT",
+   "bytes": 35219,
+   "sha256": "95dade3a1881fb6f7cfa6ae0005b6e49ad7d976db9ce475607287e3006f419ab",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_kalshi_markets",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/MIA/kalshi_markets.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets/orderbooks?tickers=KXHIGHNY-26NOV17-B55.5&tickers=KXHIGHNY-26NOV17-B57.5&tickers=KXHIGHNY-26NOV17-B59.5&tickers=KXHIGHNY-26NOV17-B61.5&tickers=KXHIGHNY-26NOV17-T55&tickers=KXHIGHNY-26NOV17-T62&tickers=KXHIGHMIA-26NOV17-B78.5&tickers=KXHIGHMIA-26NOV17-B80.5&tickers=KXHIGHMIA-26NOV17-B82.5&tickers=KXHIGHMIA-26NOV17-B84.5&tickers=KXHIGHMIA-26NOV17-T78&tickers=KXHIGHMIA-26NOV17-T85",
+   "requested_at": "2026-11-17T17:00:00.000166+00:00",
+   "received_at": "2026-11-17T17:00:00.222896+00:00",
+   "elapsed_seconds": 0.222732,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:00 GMT",
+   "bytes": 14897,
+   "sha256": "59ba309bd73d0a5a1a004b64410288cb5f5cc649cf7177ea1f69ae657416e1c1",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_kalshi_books_1",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/books_1.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets/orderbooks?tickers=KXHIGHNY-26NOV17-B55.5&tickers=KXHIGHNY-26NOV17-B57.5&tickers=KXHIGHNY-26NOV17-B59.5&tickers=KXHIGHNY-26NOV17-B61.5&tickers=KXHIGHNY-26NOV17-T55&tickers=KXHIGHNY-26NOV17-T62&tickers=KXHIGHMIA-26NOV17-B78.5&tickers=KXHIGHMIA-26NOV17-B80.5&tickers=KXHIGHMIA-26NOV17-B82.5&tickers=KXHIGHMIA-26NOV17-B84.5&tickers=KXHIGHMIA-26NOV17-T78&tickers=KXHIGHMIA-26NOV17-T85",
+   "requested_at": "2026-11-17T17:00:01.223044+00:00",
+   "received_at": "2026-11-17T17:00:01.390132+00:00",
+   "elapsed_seconds": 0.167089,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:01 GMT",
+   "bytes": 14817,
+   "sha256": "8443c8819d1a245a9ef3634e00b06cf8407ee14ace704675c0dc4f08edc7cbd1",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_kalshi_books_2",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/books_2.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://api.weather.gov/stations/KNYC/observations?start=2026-11-17T05%3A00%3A00.000000Z&end=2026-11-17T17%3A00%3A00Z",
+   "requested_at": "2026-11-17T16:59:30.000843+00:00",
+   "received_at": "2026-11-17T16:59:30.243637+00:00",
+   "elapsed_seconds": 0.242798,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 16:59:30 GMT",
+   "bytes": 39699,
+   "sha256": "d4774ce242f028b250fe98c530d65cad032a8fd39fc815f7c87b6dd93a4a25ea",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_nws_observations",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/NY/nws_observations.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://api.weather.gov/stations/KMIA/observations?start=2026-11-17T05%3A00%3A00.000000Z&end=2026-11-17T17%3A00%3A00Z",
+   "requested_at": "2026-11-17T16:59:30.001314+00:00",
+   "received_at": "2026-11-17T16:59:30.365392+00:00",
+   "elapsed_seconds": 0.364082,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 16:59:30 GMT",
+   "bytes": 323833,
+   "sha256": "dce0dd77a5754a2badc1d4528fa37933b6327f8217968e74b54a7ac42c2ce0fd",
+   "error": null,
+   "attempts": 1,
+   "kind": "noon_nws_observations",
+   "path": "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/MIA/nws_observations.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHCHI-26NOV15&limit=200",
+   "requested_at": "2026-11-17T17:00:01.395757+00:00",
+   "received_at": "2026-11-17T17:00:01.607028+00:00",
+   "elapsed_seconds": 0.211275,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:01 GMT",
+   "bytes": 18182,
+   "sha256": "66d69bba38c280135a238c426be1dcb34c51e2764e0f2884969be175ce67b56b",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHCHI-26NOV16&limit=200",
+   "requested_at": "2026-11-17T17:00:01.607463+00:00",
+   "received_at": "2026-11-17T17:00:01.805719+00:00",
+   "elapsed_seconds": 0.19826,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:01 GMT",
+   "bytes": 18200,
+   "sha256": "6c151d258bae8fd65cdb0f51a825cc103a74a50b38ad9c66157f50067aab72fb",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26NOV15&limit=200",
+   "requested_at": "2026-11-17T17:00:01.806204+00:00",
+   "received_at": "2026-11-17T17:00:02.036291+00:00",
+   "elapsed_seconds": 0.230092,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:01 GMT",
+   "bytes": 18178,
+   "sha256": "aefa53a104710364b2b5d876c1cbcb6bcf572c09b5ee33d9cdb20ad5b6e6892c",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26NOV16&limit=200",
+   "requested_at": "2026-11-17T17:00:02.036983+00:00",
+   "received_at": "2026-11-17T17:00:02.235326+00:00",
+   "elapsed_seconds": 0.198346,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:02 GMT",
+   "bytes": 18193,
+   "sha256": "0dc8065c45c388ec8a04bd30c2674fadd8a4812192fde983cc9eed64e475e82f",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV14&limit=200",
+   "requested_at": "2026-11-17T17:00:02.235988+00:00",
+   "received_at": "2026-11-17T17:00:02.433404+00:00",
+   "elapsed_seconds": 0.19742,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:02 GMT",
+   "bytes": 18239,
+   "sha256": "dcf50d3d09489fcdd882942f041fd94fcb3c0a7709f823f3a491a75dfcbe0a36",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV15&limit=200",
+   "requested_at": "2026-11-17T17:00:02.434109+00:00",
+   "received_at": "2026-11-17T17:00:02.650226+00:00",
+   "elapsed_seconds": 0.216122,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:02 GMT",
+   "bytes": 18241,
+   "sha256": "650d0e6bcafdc1a730772b64d5c1f2e1850d7f2dae472de00e8d5063ccf37c3e",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV16&limit=200",
+   "requested_at": "2026-11-17T17:00:02.650908+00:00",
+   "received_at": "2026-11-17T17:00:02.869614+00:00",
+   "elapsed_seconds": 0.218709,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:02 GMT",
+   "bytes": 18264,
+   "sha256": "f3edfb36450cd5d2c05493ff436613d42a2f9bc7a6410b9d9affe5eaccc240dd",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHMIA-26NOV15&limit=200",
+   "requested_at": "2026-11-17T17:00:02.870293+00:00",
+   "received_at": "2026-11-17T17:00:03.090691+00:00",
+   "elapsed_seconds": 0.220403,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:03 GMT",
+   "bytes": 18169,
+   "sha256": "cbf963271cb61a1616f70a0f7147af6663ca60a9c010beec2a448538969db812",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHNY-26NOV15&limit=200",
+   "requested_at": "2026-11-17T17:00:03.091175+00:00",
+   "received_at": "2026-11-17T17:00:03.287018+00:00",
+   "elapsed_seconds": 0.195847,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:03 GMT",
+   "bytes": 18246,
+   "sha256": "900d7f04ec23825cc58d68d8070d933bf2bbecd940811378b74bbcdb16956bb1",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=OKX&issuedby=NYC&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T17:00:03.287445+00:00",
+   "received_at": "2026-11-17T17:00:03.879275+00:00",
+   "elapsed_seconds": 0.591836,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:03 GMT",
+   "bytes": 28266,
+   "sha256": "3a331bbe3861adfbceb8b3b366dd8ab76bf9a8f7920b99b914272db80f108557",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOT&issuedby=MDW&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T17:00:03.879621+00:00",
+   "received_at": "2026-11-17T17:00:04.573129+00:00",
+   "elapsed_seconds": 0.693514,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:04 GMT",
+   "bytes": 28019,
+   "sha256": "804996740540ace04db1993571d6765d7fdff7851c2911f748a0beb8e2de08a9",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=MFL&issuedby=MIA&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T17:00:04.573320+00:00",
+   "received_at": "2026-11-17T17:00:05.140808+00:00",
+   "elapsed_seconds": 0.567492,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:05 GMT",
+   "bytes": 28083,
+   "sha256": "6009c15e94aaa5bf8ce9a32445c41fecd4bf437f10a7754e3a73e31a514dcb79",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=BOU&issuedby=DEN&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T17:00:05.141043+00:00",
+   "received_at": "2026-11-17T17:00:05.485117+00:00",
+   "elapsed_seconds": 0.344077,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:05 GMT",
+   "bytes": 27226,
+   "sha256": "db63630addba73a6e866c35927d60d263431f19318917389636886be0fc83fc9",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOX&issuedby=LAX&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T17:00:05.485246+00:00",
+   "received_at": "2026-11-17T17:00:06.395208+00:00",
+   "elapsed_seconds": 0.909967,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 17:00:06 GMT",
+   "bytes": 28191,
+   "sha256": "894705675f538e489febe7aac1899de8974d0070c2122f156435634eef302970",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  }
+ ],
+ "errors": [],
+ "noon": [
+  {
+   "kind": "noon_lst",
+   "cutoff_utc": "2026-11-17T17:00:00.000000+00:00",
+   "started_before_cutoff": true,
+   "note": "inputs only (observations, markets, books); no settlement data",
+   "cities": {
+    "NY": {
+     "series": "KXHIGHNY",
+     "event_ticker": "KXHIGHNY-26NOV17",
+     "target_date": "2026-11-17",
+     "station": "KNYC",
+     "climate_day_utc": [
+      "2026-11-17T05:00:00.000000+00:00",
+      "2026-11-18T05:00:00.000000+00:00"
+     ],
+     "tickers": [
+      "KXHIGHNY-26NOV17-B55.5",
+      "KXHIGHNY-26NOV17-B57.5",
+      "KXHIGHNY-26NOV17-B59.5",
+      "KXHIGHNY-26NOV17-B61.5",
+      "KXHIGHNY-26NOV17-T55",
+      "KXHIGHNY-26NOV17-T62"
+     ],
+     "problems": [],
+     "observations": {
+      "ok": true,
+      "requested_at": "2026-11-17T16:59:30.000843+00:00",
+      "received_at": "2026-11-17T16:59:30.243637+00:00",
+      "http_status": 200,
+      "error": null,
+      "received_before_cutoff": true,
+      "no_answer_in_time": false,
+      "audit_only": false,
+      "reports": 9,
+      "usable_reports": 8,
+      "usable": [
+       {
+        "timestamp": "2026-11-17T05:51:00+00:00",
+        "temperature_c": 6.7,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T06:51:00+00:00",
+        "temperature_c": 6.7,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:51:00+00:00",
+        "temperature_c": 6.1,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:51:00+00:00",
+        "temperature_c": 6.1,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T11:51:00+00:00",
+        "temperature_c": 5.6,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:51:00+00:00",
+        "temperature_c": 6.1,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T13:51:00+00:00",
+        "temperature_c": 7.8,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T15:51:00+00:00",
+        "temperature_c": 10.6,
+        "qc": "V"
+       }
+      ],
+      "newest_usable_timestamp": "2026-11-17T15:51:00+00:00",
+      "newest_usable_age_seconds": 4140.0,
+      "tries": 1
+     },
+     "books_missing_first": [],
+     "books_missing_recheck": [],
+     "status": "captured",
+     "eligible": true,
+     "reason_code": "on_time",
+     "paper_fill_eligible": true,
+     "paper_fill_reason": "complete_recheck"
+    },
+    "MIA": {
+     "series": "KXHIGHMIA",
+     "event_ticker": "KXHIGHMIA-26NOV17",
+     "target_date": "2026-11-17",
+     "station": "KMIA",
+     "climate_day_utc": [
+      "2026-11-17T05:00:00.000000+00:00",
+      "2026-11-18T05:00:00.000000+00:00"
+     ],
+     "tickers": [
+      "KXHIGHMIA-26NOV17-B78.5",
+      "KXHIGHMIA-26NOV17-B80.5",
+      "KXHIGHMIA-26NOV17-B82.5",
+      "KXHIGHMIA-26NOV17-B84.5",
+      "KXHIGHMIA-26NOV17-T78",
+      "KXHIGHMIA-26NOV17-T85"
+     ],
+     "problems": [],
+     "observations": {
+      "ok": true,
+      "requested_at": "2026-11-17T16:59:30.001314+00:00",
+      "received_at": "2026-11-17T16:59:30.365392+00:00",
+      "http_status": 200,
+      "error": null,
+      "received_before_cutoff": true,
+      "no_answer_in_time": false,
+      "audit_only": false,
+      "reports": 76,
+      "usable_reports": 76,
+      "usable": [
+       {
+        "timestamp": "2026-11-17T05:00:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:24:00+00:00",
+        "temperature_c": 21.7,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:30:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:35:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:40:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:53:00+00:00",
+        "temperature_c": 21.7,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T05:55:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T06:00:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T06:20:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T06:50:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T06:53:00+00:00",
+        "temperature_c": 22.2,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T07:20:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T07:25:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T07:30:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T07:35:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T07:53:00+00:00",
+        "temperature_c": 23.9,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:00:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:05:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:10:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:15:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:30:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:45:00+00:00",
+        "temperature_c": 22,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T08:53:00+00:00",
+        "temperature_c": 22.2,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:00:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:05:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:10:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:15:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:20:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:25:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:30:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:40:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:45:00+00:00",
+        "temperature_c": 23,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:53:00+00:00",
+        "temperature_c": 23.9,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T09:55:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:00:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:03:00+00:00",
+        "temperature_c": 23.9,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:05:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:10:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:15:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:25:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:40:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:50:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T10:53:00+00:00",
+        "temperature_c": 24.4,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T11:15:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T11:35:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T11:45:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T11:53:00+00:00",
+        "temperature_c": 23.9,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:00:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:05:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:25:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:30:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:50:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:53:00+00:00",
+        "temperature_c": 24.4,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T12:55:00+00:00",
+        "temperature_c": 24,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T13:25:00+00:00",
+        "temperature_c": 25,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T13:30:00+00:00",
+        "temperature_c": 25,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T13:53:00+00:00",
+        "temperature_c": 25,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:00:00+00:00",
+        "temperature_c": 25,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:15:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:25:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:30:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:45:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:50:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T14:53:00+00:00",
+        "temperature_c": 26.1,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T15:05:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T15:10:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T15:53:00+00:00",
+        "temperature_c": 27.2,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T15:55:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:00:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:05:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:10:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:15:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:20:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:25:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:30:00+00:00",
+        "temperature_c": 26,
+        "qc": "V"
+       },
+       {
+        "timestamp": "2026-11-17T16:35:00+00:00",
+        "temperature_c": 27,
+        "qc": "V"
+       }
+      ],
+      "newest_usable_timestamp": "2026-11-17T16:35:00+00:00",
+      "newest_usable_age_seconds": 1500.0,
+      "tries": 1
+     },
+     "books_missing_first": [],
+     "books_missing_recheck": [],
+     "status": "captured",
+     "eligible": true,
+     "reason_code": "on_time",
+     "paper_fill_eligible": true,
+     "paper_fill_reason": "complete_recheck"
+    }
+   },
+   "books": {
+    "tickers_requested": 12,
+    "tickers_returned_first": 12,
+    "first_requested_at": "2026-11-17T17:00:00.000166+00:00",
+    "first_received_at": "2026-11-17T17:00:00.222896+00:00",
+    "second_requested_at": "2026-11-17T17:00:01.223044+00:00",
+    "second_received_at": "2026-11-17T17:00:01.390132+00:00",
+    "request_lateness_seconds": 0.000166,
+    "receipt_lateness_seconds": 0.222896,
+    "recheck_gap_seconds": 1.00015,
+    "timing_eligible": true,
+    "timing_reason_code": "on_time",
+    "first_ok": true,
+    "recheck_ok": true,
+    "note": "raw books (full depth) are in books_1.json and books_2.json",
+    "quotes_first": {
+     "KXHIGHNY-26NOV17-B55.5": {
+      "yes_bid": "0.1600",
+      "yes_bid_size": "9.15",
+      "yes_ask": "0.1700",
+      "yes_ask_size": "9.00"
+     },
+     "KXHIGHNY-26NOV17-B57.5": {
+      "yes_bid": "0.7200",
+      "yes_bid_size": "7.00",
+      "yes_ask": "0.7700",
+      "yes_ask_size": "46.00"
+     },
+     "KXHIGHNY-26NOV17-B59.5": {
+      "yes_bid": "0.0600",
+      "yes_bid_size": "10.00",
+      "yes_ask": "0.0800",
+      "yes_ask_size": "241.85"
+     },
+     "KXHIGHNY-26NOV17-B61.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "17376.34"
+     },
+     "KXHIGHNY-26NOV17-T55": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "31513.05"
+     },
+     "KXHIGHNY-26NOV17-T62": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "19975.52"
+     },
+     "KXHIGHMIA-26NOV17-B78.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "69895.38"
+     },
+     "KXHIGHMIA-26NOV17-B80.5": {
+      "yes_bid": "0.7200",
+      "yes_bid_size": "2.00",
+      "yes_ask": "0.7300",
+      "yes_ask_size": "1.50"
+     },
+     "KXHIGHMIA-26NOV17-B82.5": {
+      "yes_bid": "0.2700",
+      "yes_bid_size": "50.00",
+      "yes_ask": "0.2900",
+      "yes_ask_size": "8.00"
+     },
+     "KXHIGHMIA-26NOV17-B84.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "126.50"
+     },
+     "KXHIGHMIA-26NOV17-T78": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "86779.75"
+     },
+     "KXHIGHMIA-26NOV17-T85": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "7139.07"
+     }
+    },
+    "quotes_recheck": {
+     "KXHIGHNY-26NOV17-B55.5": {
+      "yes_bid": "0.1600",
+      "yes_bid_size": "43.15",
+      "yes_ask": "0.1700",
+      "yes_ask_size": "9.00"
+     },
+     "KXHIGHNY-26NOV17-B57.5": {
+      "yes_bid": "0.7200",
+      "yes_bid_size": "7.00",
+      "yes_ask": "0.7600",
+      "yes_ask_size": "2.00"
+     },
+     "KXHIGHNY-26NOV17-B59.5": {
+      "yes_bid": "0.0600",
+      "yes_bid_size": "10.00",
+      "yes_ask": "0.0800",
+      "yes_ask_size": "241.85"
+     },
+     "KXHIGHNY-26NOV17-B61.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "17376.34"
+     },
+     "KXHIGHNY-26NOV17-T55": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "31513.05"
+     },
+     "KXHIGHNY-26NOV17-T62": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "19975.52"
+     },
+     "KXHIGHMIA-26NOV17-B78.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "69895.38"
+     },
+     "KXHIGHMIA-26NOV17-B80.5": {
+      "yes_bid": "0.7200",
+      "yes_bid_size": "2.00",
+      "yes_ask": "0.7300",
+      "yes_ask_size": "51.50"
+     },
+     "KXHIGHMIA-26NOV17-B82.5": {
+      "yes_bid": "0.2700",
+      "yes_bid_size": "50.00",
+      "yes_ask": "0.2900",
+      "yes_ask_size": "8.00"
+     },
+     "KXHIGHMIA-26NOV17-B84.5": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "126.50"
+     },
+     "KXHIGHMIA-26NOV17-T78": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "86779.75"
+     },
+     "KXHIGHMIA-26NOV17-T85": {
+      "yes_bid": null,
+      "yes_bid_size": null,
+      "yes_ask": "0.0100",
+      "yes_ask_size": "7139.07"
+     }
+    },
+    "depth_first": {
+     "KXHIGHNY-26NOV17-B55.5": {
+      "yes_levels": 16,
+      "yes_contracts": "5914.85",
+      "no_levels": 64,
+      "no_contracts": "6044.09"
+     },
+     "KXHIGHNY-26NOV17-B57.5": {
+      "yes_levels": 48,
+      "yes_contracts": "5684.50",
+      "no_levels": 23,
+      "no_contracts": "7200.90"
+     },
+     "KXHIGHNY-26NOV17-B59.5": {
+      "yes_levels": 6,
+      "yes_contracts": "2657.00",
+      "no_levels": 61,
+      "no_contracts": "8178.89"
+     },
+     "KXHIGHNY-26NOV17-B61.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 58,
+      "no_contracts": "30477.61"
+     },
+     "KXHIGHNY-26NOV17-T55": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 57,
+      "no_contracts": "39202.22"
+     },
+     "KXHIGHNY-26NOV17-T62": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 52,
+      "no_contracts": "25962.69"
+     },
+     "KXHIGHMIA-26NOV17-B78.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 57,
+      "no_contracts": "79089.48"
+     },
+     "KXHIGHMIA-26NOV17-B80.5": {
+      "yes_levels": 34,
+      "yes_contracts": "2082.98",
+      "no_levels": 25,
+      "no_contracts": "3401.70"
+     },
+     "KXHIGHMIA-26NOV17-B82.5": {
+      "yes_levels": 22,
+      "yes_contracts": "2245.55",
+      "no_levels": 42,
+      "no_contracts": "3616.72"
+     },
+     "KXHIGHMIA-26NOV17-B84.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 56,
+      "no_contracts": "5057.39"
+     },
+     "KXHIGHMIA-26NOV17-T78": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 53,
+      "no_contracts": "94055.29"
+     },
+     "KXHIGHMIA-26NOV17-T85": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 50,
+      "no_contracts": "11046.63"
+     }
+    },
+    "depth_recheck": {
+     "KXHIGHNY-26NOV17-B55.5": {
+      "yes_levels": 16,
+      "yes_contracts": "5905.85",
+      "no_levels": 63,
+      "no_contracts": "6041.09"
+     },
+     "KXHIGHNY-26NOV17-B57.5": {
+      "yes_levels": 48,
+      "yes_contracts": "5684.50",
+      "no_levels": 24,
+      "no_contracts": "7259.17"
+     },
+     "KXHIGHNY-26NOV17-B59.5": {
+      "yes_levels": 6,
+      "yes_contracts": "2657.00",
+      "no_levels": 61,
+      "no_contracts": "8176.89"
+     },
+     "KXHIGHNY-26NOV17-B61.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 58,
+      "no_contracts": "30476.61"
+     },
+     "KXHIGHNY-26NOV17-T55": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 57,
+      "no_contracts": "39201.22"
+     },
+     "KXHIGHNY-26NOV17-T62": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 52,
+      "no_contracts": "25961.69"
+     },
+     "KXHIGHMIA-26NOV17-B78.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 57,
+      "no_contracts": "78989.48"
+     },
+     "KXHIGHMIA-26NOV17-B80.5": {
+      "yes_levels": 33,
+      "yes_contracts": "2082.98",
+      "no_levels": 24,
+      "no_contracts": "3251.34"
+     },
+     "KXHIGHMIA-26NOV17-B82.5": {
+      "yes_levels": 21,
+      "yes_contracts": "1904.45",
+      "no_levels": 41,
+      "no_contracts": "3652.23"
+     },
+     "KXHIGHMIA-26NOV17-B84.5": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 56,
+      "no_contracts": "4957.39"
+     },
+     "KXHIGHMIA-26NOV17-T78": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 53,
+      "no_contracts": "93955.29"
+     },
+     "KXHIGHMIA-26NOV17-T85": {
+      "yes_levels": 0,
+      "yes_contracts": "0",
+      "no_levels": 50,
+      "no_contracts": "10946.63"
+     }
+    }
+   }
+  }
+ ],
+ "noon_missed": [],
+ "finished_at": "2026-11-17T17:00:06.395708+00:00",
+ "files": {
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/MIA/kalshi_markets.json": {
+   "bytes": 35219,
+   "sha256": "95dade3a1881fb6f7cfa6ae0005b6e49ad7d976db9ce475607287e3006f419ab"
+  },
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/MIA/nws_observations.json": {
+   "bytes": 323833,
+   "sha256": "dce0dd77a5754a2badc1d4528fa37933b6327f8217968e74b54a7ac42c2ce0fd"
+  },
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/NY/kalshi_markets.json": {
+   "bytes": 35402,
+   "sha256": "5642bbf493bef901409ca72eee3536e47d4b2eb21bd914b0a1a9eab13ccfa636"
+  },
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/NY/nws_observations.json": {
+   "bytes": 39699,
+   "sha256": "d4774ce242f028b250fe98c530d65cad032a8fd39fc815f7c87b6dd93a4a25ea"
+  },
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/books_1.json": {
+   "bytes": 14897,
+   "sha256": "59ba309bd73d0a5a1a004b64410288cb5f5cc649cf7177ea1f69ae657416e1c1"
+  },
+  "runs/2026/11/17/20261117T165220Z-df0eb4/noon_20261117T1700Z/books_2.json": {
+   "bytes": 14817,
+   "sha256": "8443c8819d1a245a9ef3634e00b06cf8407ee14ace704675c0dc4f08edc7cbd1"
+  }
+ }
+}

@@ -417,7 +417,7 @@
   },
   "KXHIGHLAX-26NOV14": {
    "city": "LAX",
-   "done": false,
+   "done": true,
    "final_at": "2026-11-15T15:52:22.152388+00:00",
    "first_seen": "2026-11-14T02:00:01.330125+00:00",
    "last_sig": "8e55d9f456c6e18405bf82871e2ee1538ec8f5a09d0737e30ffd7a301fe3f33b",
@@ -751,6 +751,17 @@
     "receipt_lateness_seconds": 0.191227,
     "run_id": "20261116T165221Z-91e6f1",
     "status": "captured"
+   },
+   "2026-11-17": {
+    "cutoff_utc": "2026-11-17T17:00:00.000000+00:00",
+    "eligible": true,
+    "newest_usable_obs_age_seconds": 1500.0,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.222896,
+    "run_id": "20261117T165220Z-df0eb4",
+    "status": "captured"
    }
   },
   "NY": {
@@ -801,6 +812,17 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.191227,
     "run_id": "20261116T165221Z-91e6f1",
+    "status": "captured"
+   },
+   "2026-11-17": {
+    "cutoff_utc": "2026-11-17T17:00:00.000000+00:00",
+    "eligible": true,
+    "newest_usable_obs_age_seconds": 4140.0,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.222896,
+    "run_id": "20261117T165220Z-df0eb4",
     "status": "captured"
    }
   }
