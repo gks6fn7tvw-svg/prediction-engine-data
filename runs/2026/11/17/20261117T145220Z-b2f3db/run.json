@@ -1,0 +1,317 @@
+{
+ "run_id": "20261117T145220Z-b2f3db",
+ "started_at": "2026-11-17T14:52:20.208302+00:00",
+ "code_version": "dbc45b99d88713b63823768b88f0770fe1d85ff9",
+ "cutoffs": [],
+ "missed": [],
+ "settlement": [
+  {
+   "event_ticker": "KXHIGHCHI-26NOV15",
+   "polled_at": "2026-11-17T14:52:20.701180+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHCHI-26NOV16",
+   "polled_at": "2026-11-17T14:52:20.946874+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHDEN-26NOV14",
+   "polled_at": "2026-11-17T14:52:21.144206+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHDEN-26NOV15",
+   "polled_at": "2026-11-17T14:52:21.356373+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHDEN-26NOV16",
+   "polled_at": "2026-11-17T14:52:21.563601+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": true,
+   "path": "settlement/KXHIGHDEN-26NOV16/20261117T145220Z-b2f3db.json"
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV14",
+   "polled_at": "2026-11-17T14:52:21.777224+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV15",
+   "polled_at": "2026-11-17T14:52:21.971726+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHLAX-26NOV16",
+   "polled_at": "2026-11-17T14:52:22.168467+00:00",
+   "markets": 6,
+   "final": false,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHMIA-26NOV15",
+   "polled_at": "2026-11-17T14:52:22.380017+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  },
+  {
+   "event_ticker": "KXHIGHNY-26NOV15",
+   "polled_at": "2026-11-17T14:52:22.602682+00:00",
+   "markets": 6,
+   "final": true,
+   "changed": false
+  }
+ ],
+ "cli": [
+  {
+   "city": "NY",
+   "changed": false
+  },
+  {
+   "city": "CHI",
+   "changed": false
+  },
+  {
+   "city": "MIA",
+   "changed": false
+  },
+  {
+   "city": "DEN",
+   "changed": true
+  },
+  {
+   "city": "LAX",
+   "changed": false
+  }
+ ],
+ "fetches": [
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHCHI-26NOV15&limit=200",
+   "requested_at": "2026-11-17T14:52:20.701180+00:00",
+   "received_at": "2026-11-17T14:52:20.946345+00:00",
+   "elapsed_seconds": 0.245169,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:20 GMT",
+   "bytes": 18182,
+   "sha256": "66d69bba38c280135a238c426be1dcb34c51e2764e0f2884969be175ce67b56b",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHCHI-26NOV16&limit=200",
+   "requested_at": "2026-11-17T14:52:20.946874+00:00",
+   "received_at": "2026-11-17T14:52:21.143738+00:00",
+   "elapsed_seconds": 0.196868,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:21 GMT",
+   "bytes": 18203,
+   "sha256": "358efb7751200ea9e7beb04232e85c9cfbd233aa809391c2468b6ab95626a4fc",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26NOV14&limit=200",
+   "requested_at": "2026-11-17T14:52:21.144206+00:00",
+   "received_at": "2026-11-17T14:52:21.355981+00:00",
+   "elapsed_seconds": 0.211779,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:21 GMT",
+   "bytes": 18175,
+   "sha256": "845970c6ce35c8c15789512e7e743b2e1dfd52fe1acf1e30e1f0c92f9547f902",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26NOV15&limit=200",
+   "requested_at": "2026-11-17T14:52:21.356373+00:00",
+   "received_at": "2026-11-17T14:52:21.563193+00:00",
+   "elapsed_seconds": 0.206824,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:21 GMT",
+   "bytes": 18178,
+   "sha256": "aefa53a104710364b2b5d876c1cbcb6bcf572c09b5ee33d9cdb20ad5b6e6892c",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHDEN-26NOV16&limit=200",
+   "requested_at": "2026-11-17T14:52:21.563601+00:00",
+   "received_at": "2026-11-17T14:52:21.776649+00:00",
+   "elapsed_seconds": 0.213053,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:21 GMT",
+   "bytes": 18194,
+   "sha256": "777e794ad8087da94466f96282139604b04bca47725024dc24864cccdada6831",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll",
+   "path": "settlement/KXHIGHDEN-26NOV16/20261117T145220Z-b2f3db.json",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV14&limit=200",
+   "requested_at": "2026-11-17T14:52:21.777224+00:00",
+   "received_at": "2026-11-17T14:52:21.971245+00:00",
+   "elapsed_seconds": 0.194026,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:21 GMT",
+   "bytes": 18239,
+   "sha256": "dcf50d3d09489fcdd882942f041fd94fcb3c0a7709f823f3a491a75dfcbe0a36",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV15&limit=200",
+   "requested_at": "2026-11-17T14:52:21.971726+00:00",
+   "received_at": "2026-11-17T14:52:22.168076+00:00",
+   "elapsed_seconds": 0.196353,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:22 GMT",
+   "bytes": 18241,
+   "sha256": "650d0e6bcafdc1a730772b64d5c1f2e1850d7f2dae472de00e8d5063ccf37c3e",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHLAX-26NOV16&limit=200",
+   "requested_at": "2026-11-17T14:52:22.168467+00:00",
+   "received_at": "2026-11-17T14:52:22.379483+00:00",
+   "elapsed_seconds": 0.21102,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:22 GMT",
+   "bytes": 17712,
+   "sha256": "f00f0ba8bd4d4d415bd4cbbbbc2d445181339d084914513791ffbb7bfeb4421d",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHMIA-26NOV15&limit=200",
+   "requested_at": "2026-11-17T14:52:22.380017+00:00",
+   "received_at": "2026-11-17T14:52:22.602294+00:00",
+   "elapsed_seconds": 0.22228,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:22 GMT",
+   "bytes": 18169,
+   "sha256": "cbf963271cb61a1616f70a0f7147af6663ca60a9c010beec2a448538969db812",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://external-api.kalshi.com/trade-api/v2/markets?event_ticker=KXHIGHNY-26NOV15&limit=200",
+   "requested_at": "2026-11-17T14:52:22.602682+00:00",
+   "received_at": "2026-11-17T14:52:22.811254+00:00",
+   "elapsed_seconds": 0.208575,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:22 GMT",
+   "bytes": 18246,
+   "sha256": "900d7f04ec23825cc58d68d8070d933bf2bbecd940811378b74bbcdb16956bb1",
+   "error": null,
+   "attempts": 1,
+   "kind": "kalshi_settlement_poll"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=OKX&issuedby=NYC&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T14:52:22.811741+00:00",
+   "received_at": "2026-11-17T14:52:23.129879+00:00",
+   "elapsed_seconds": 0.318142,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:23 GMT",
+   "bytes": 28266,
+   "sha256": "f113789a1fe3374714ed41b62793bf3825ab525cf5f6950e543a5ab2fbe250ef",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOT&issuedby=MDW&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T14:52:23.130177+00:00",
+   "received_at": "2026-11-17T14:52:23.576196+00:00",
+   "elapsed_seconds": 0.446023,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:23 GMT",
+   "bytes": 28019,
+   "sha256": "8a15701effa7a5f92a2c017d06de0fa2864f7437ef28943b8c30ae30c057c868",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=MFL&issuedby=MIA&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T14:52:23.576358+00:00",
+   "received_at": "2026-11-17T14:52:23.853714+00:00",
+   "elapsed_seconds": 0.277361,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:23 GMT",
+   "bytes": 28083,
+   "sha256": "4a05a9ab3a652205c6d6f4f0984f817f9351dd9ef12ce9a6ca6bc3054966305f",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=BOU&issuedby=DEN&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T14:52:23.853871+00:00",
+   "received_at": "2026-11-17T14:52:24.819162+00:00",
+   "elapsed_seconds": 0.965296,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:24 GMT",
+   "bytes": 27226,
+   "sha256": "90cfd2c850c31466971d25170f369f11f882ff99c7e76e024f6199970c3aae28",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli",
+   "path": "cli/DEN/20261117T145220Z-b2f3db.html",
+   "stored_gzip": false
+  },
+  {
+   "url": "https://forecast.weather.gov/product.php?site=LOX&issuedby=LAX&product=CLI&format=TXT&version=1&glossary=0",
+   "requested_at": "2026-11-17T14:52:24.819319+00:00",
+   "received_at": "2026-11-17T14:52:25.130504+00:00",
+   "elapsed_seconds": 0.31119,
+   "http_status": 200,
+   "server_date": "Tue, 17 Nov 2026 14:52:25 GMT",
+   "bytes": 28191,
+   "sha256": "9cfebfd71781f0381b77ee4d95d4397c8a21d72ab54820e5896e54bea7fe01c9",
+   "error": null,
+   "attempts": 1,
+   "kind": "nws_cli"
+  }
+ ],
+ "errors": [],
+ "noon": [],
+ "noon_missed": [],
+ "finished_at": "2026-11-17T14:52:25.130891+00:00",
+ "files": {
+  "cli/DEN/20261117T145220Z-b2f3db.html": {
+   "bytes": 27226,
+   "sha256": "90cfd2c850c31466971d25170f369f11f882ff99c7e76e024f6199970c3aae28"
+  },
+  "settlement/KXHIGHDEN-26NOV16/20261117T145220Z-b2f3db.json": {
+   "bytes": 18194,
+   "sha256": "777e794ad8087da94466f96282139604b04bca47725024dc24864cccdada6831"
+  }
+ }
+}
