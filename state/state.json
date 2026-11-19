@@ -1,8 +1,8 @@
 {
  "cli": {
   "CHI": {
-   "last_sha256": "7814472f9403ef3abbfd1ab2df5bbfaf256e13f9abf1314fcdec94f1f032fdbd",
-   "saved_at": "2026-11-19T06:52:21.083729+00:00"
+   "last_sha256": "485f327289ef27aa2fef2f5b9ff87ec264918026182c9ba06081b75abc8c3f66",
+   "saved_at": "2026-11-19T23:00:05.130979+00:00"
   },
   "DEN": {
    "last_sha256": "7b6d652f49b1587d081290a05eb47a54da4826504b03bc1af4d95f0b13b85eda",
@@ -17,8 +17,8 @@
    "saved_at": "2026-11-19T21:52:20.724375+00:00"
   },
   "NY": {
-   "last_sha256": "77826b35315ef227d5ce521aee66c50fdc1b1ab477ceef2d7d7e8debff126757",
-   "saved_at": "2026-11-19T06:52:20.809606+00:00"
+   "last_sha256": "d277d1922878b41f7b7940e85397f595fb3248d9d9534abd814e3e2b42bc0c87",
+   "saved_at": "2026-11-19T23:00:04.660973+00:00"
   }
  },
  "created_at": "2026-11-11T07:25:25.465965+00:00",
@@ -321,6 +321,16 @@
     "receipt_lateness_seconds": 0.217557,
     "run_id": "20261118T225219Z-9609bb",
     "status": "captured"
+   },
+   "2026-11-20": {
+    "cutoff_utc": "2026-11-19T23:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.207848,
+    "run_id": "20261119T225216Z-eb90b3",
+    "status": "captured"
    }
   },
   "NY": {
@@ -390,6 +400,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.217557,
     "run_id": "20261118T225219Z-9609bb",
+    "status": "captured"
+   },
+   "2026-11-20": {
+    "cutoff_utc": "2026-11-19T23:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.207848,
+    "run_id": "20261119T225216Z-eb90b3",
     "status": "captured"
    }
   }
@@ -665,6 +685,16 @@
    "target_date": "2026-11-19",
    "versions": 0
   },
+  "KXHIGHMIA-26NOV20": {
+   "city": "MIA",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-19T23:00:01.416733+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-21T05:00:00.000000+00:00",
+   "target_date": "2026-11-20",
+   "versions": 0
+  },
   "KXHIGHNY-26NOV12": {
    "city": "NY",
    "done": true,
@@ -723,6 +753,16 @@
    "last_sig": null,
    "poll_after": "2026-11-20T05:00:00.000000+00:00",
    "target_date": "2026-11-19",
+   "versions": 0
+  },
+  "KXHIGHNY-26NOV20": {
+   "city": "NY",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-19T23:00:01.416733+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-21T05:00:00.000000+00:00",
+   "target_date": "2026-11-20",
    "versions": 0
   }
  },
