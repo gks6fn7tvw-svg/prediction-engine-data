@@ -5,8 +5,8 @@
    "saved_at": "2026-11-19T23:00:05.130979+00:00"
   },
   "DEN": {
-   "last_sha256": "7b6d652f49b1587d081290a05eb47a54da4826504b03bc1af4d95f0b13b85eda",
-   "saved_at": "2026-11-19T14:52:25.421333+00:00"
+   "last_sha256": "638d1fca48e40b0f17ef7b6a604e30b61b9734fd8c953bb3206ab43cf2a87534",
+   "saved_at": "2026-11-20T01:00:05.546336+00:00"
   },
   "LAX": {
    "last_sha256": "eda7990635939ea4792b0deef0a11569c787665f34284924a601e86899571e16",
@@ -185,6 +185,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.165005,
     "run_id": "20261119T005218Z-fcbabe",
+    "status": "captured"
+   },
+   "2026-11-20": {
+    "cutoff_utc": "2026-11-20T01:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.173102,
+    "run_id": "20261120T005216Z-79c10c",
     "status": "captured"
    }
   },
@@ -583,6 +593,16 @@
    "last_sig": null,
    "poll_after": "2026-11-20T07:00:00.000000+00:00",
    "target_date": "2026-11-19",
+   "versions": 0
+  },
+  "KXHIGHDEN-26NOV20": {
+   "city": "DEN",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-20T01:00:01.331867+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-21T07:00:00.000000+00:00",
+   "target_date": "2026-11-20",
    "versions": 0
   },
   "KXHIGHLAX-26NOV12": {
