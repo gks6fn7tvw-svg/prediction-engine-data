@@ -1,0 +1,3703 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T18:53:00+00:00",
+                "rawMessage": "KLAX 221853Z 29003KT 10SM FEW040 SCT210 SCT280 19/03 A3005 RMK AO2 SLP174 T01890028 $",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18.9,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.8,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 290,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.4,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101740,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 34.267504594045,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1220
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 6400
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 8530
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T18:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 19,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760.98,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 32.171163348077,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T18:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101794.84,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 34.250229549923,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T18:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 130,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760.98,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 34.250229549923,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T18:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T18:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 18,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101794.84,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 31.882617941089,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T17:53:00+00:00",
+                "rawMessage": "KLAX 221753Z 03004KT 10SM FEW040 FEW180 SCT220 SCT300 17/01 A3006 RMK AO2 SLP177 T01670011 10167 20089 51013 $",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 30,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101800,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101770,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 34.861430718232,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1220
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 5490
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 6710
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 9140
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T17:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 50,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101794.84,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 38.876474178814,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T17:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 16,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 42.588,
+                    "qualityControl": "S"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760.98,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 36.189064699057,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:10:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T17:10:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T17:10:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 15,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760.98,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 38.58414711534,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T16:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T16:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T16:53:00+00:00",
+                "rawMessage": "KLAX 221653Z 07006KT 10SM FEW040 FEW180 SCT220 SCT300 15/01 A3006 RMK AO2 SLP177 T01500011 $",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 15,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.16,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101800,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101770,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 38.862552721019,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1220
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 5490
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 6710
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 9140
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T16:20:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T16:20:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T16:20:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 13,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 42.588,
+                    "qualityControl": "C"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101760.98,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 47.188232229476,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T14:53:00+00:00",
+                "rawMessage": "KLAX 221453Z 04004KT 10SM FEW040 FEW180 SCT250 11/02 A3002 RMK AO2 SLP165 T01060022 53008 $",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 10.6,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 40,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101660,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101650,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 56.07584487389,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T14:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101659.39,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1219.2
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T14:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T14:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:55:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:55:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T13:55:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 46.90434296071,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T13:53:00+00:00",
+                "rawMessage": "KLAX 221353Z 00000KT 10SM FEW250 12/01 A3001 RMK AO2 SLP159 T01170011 $",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101630,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101590,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 48.18654073806,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T13:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T13:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 0,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101591.66,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T12:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T12:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T12:53:00+00:00",
+                "rawMessage": "KLAX 221253Z 07005KT 10SM BKN250 10/02 A3000 RMK AO2 SLP155 T01000022 $",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 10,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.36,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101590,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101550,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 58.366985638618,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T12:50:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T12:50:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T12:50:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 9,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101591.66,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 61.538307312126,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 7.976667160708889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:53:00+00:00",
+                "rawMessage": "KLAX 221153Z 10003KT 10SM BKN250 11/02 A3000 RMK AO2 SLP156 T01060022 10156 20106 58007 $",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 10.6,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.4,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101590,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101560,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 56.07584487389,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101591.66,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101591.66,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:10:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:10:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:10:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.387471827471,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:05:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:05:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:05:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 40,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:00:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T11:00:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T11:00:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 57.795276383181,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T10:53:00+00:00",
+                "rawMessage": "KLAX 221053Z 06004KT 10SM BKN250 11/02 A3001 RMK AO2 SLP161 T01060022 $",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 10.6,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101630,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101610,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 56.07584487389,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:50:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:50:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T10:50:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.831404997309,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:25:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:25:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T10:25:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 10,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101659.39,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.387471827471,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T10:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 20,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101659.39,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.387471827471,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:10:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T10:10:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T10:10:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 10,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101659.39,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.387471827471,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T09:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T09:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T09:53:00+00:00",
+                "rawMessage": "KLAX 220953Z 05004KT 10SM BKN250 11/02 A3001 RMK AO2 SLP162 T01110022 $",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 50,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101630,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101620,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 54.243248379225,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T09:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T09:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T09:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 12,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 5.544,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101625.52,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.387471827471,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T08:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T08:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T08:53:00+00:00",
+                "rawMessage": "KLAX 220853Z 09004KT 10SM BKN250 12/02 A3002 RMK AO2 SLP164 T01170022 58007 $",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 11.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101660,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101640,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 52.131989560281,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T08:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.4,
+                    33.93
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KLAX/observations/2026-11-22T08:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 32
+                },
+                "station": "https://api.weather.gov/stations/KLAX",
+                "stationId": "KLAX",
+                "stationName": "Los Angeles, Los Angeles International Airport",
+                "timestamp": "2026-11-22T08:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Clear",
+                "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 13,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 101693.25,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 50.662934097162,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 3810
+                        },
+                        "amount": "CLR"
+                    }
+                ]
+            }
+        }
+    ],
+    "pagination": {
+        "next": "https://api.weather.gov/stations/KLAX/observations?cursor=eyJzIjoiMjAyNi0xMS0yMlQwODoxNTowMCswMDowMCJ9"
+    }
+}
