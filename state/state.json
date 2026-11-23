@@ -9,8 +9,8 @@
    "saved_at": "2026-11-23T00:00:06.521753+00:00"
   },
   "LAX": {
-   "last_sha256": "f968f9316f5c780d55e1068822f15e2454cd8f0f8db5f4b8c091a1d5080e3021",
-   "saved_at": "2026-11-22T08:52:26.960529+00:00"
+   "last_sha256": "a8424fa0403cbc1ea9dcb46bef46c54f02788da8e045e38918fc755c3d590e8b",
+   "saved_at": "2026-11-23T02:00:08.748519+00:00"
   },
   "MIA": {
    "last_sha256": "4680c181a5a4260074c868744c4d48805eae77b2da70bc3f5d6c99798bcb017f",
@@ -360,6 +360,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.172954,
     "run_id": "20261122T015212Z-56ece1",
+    "status": "captured"
+   },
+   "2026-11-23": {
+    "cutoff_utc": "2026-11-23T02:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.158945,
+    "run_id": "20261123T015214Z-89c65d",
     "status": "captured"
    }
   },
@@ -913,6 +923,16 @@
    "last_sig": null,
    "poll_after": "2026-11-23T08:00:00.000000+00:00",
    "target_date": "2026-11-22",
+   "versions": 0
+  },
+  "KXHIGHLAX-26NOV23": {
+   "city": "LAX",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-23T02:00:01.305649+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-24T08:00:00.000000+00:00",
+   "target_date": "2026-11-23",
    "versions": 0
   },
   "KXHIGHMIA-26NOV12": {
