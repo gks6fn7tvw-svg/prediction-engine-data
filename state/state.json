@@ -1,8 +1,8 @@
 {
  "cli": {
   "CHI": {
-   "last_sha256": "4059710062c6f36d9990e68235fa20ea0c550dc8fb42ea7b6fa8caf79b8ad0d7",
-   "saved_at": "2026-11-23T06:52:18.919272+00:00"
+   "last_sha256": "489042d6c08e98545267494a1fd3b10136a78b39f2e0fd3aaae5aaf176573ad1",
+   "saved_at": "2026-11-23T23:00:05.676902+00:00"
   },
   "DEN": {
    "last_sha256": "7877b6a12d515f50dded96dee841f1e6ece8fd3e178986748d4547388587dc91",
@@ -481,6 +481,16 @@
     "receipt_lateness_seconds": 0.202972,
     "run_id": "20261122T225213Z-138e9e",
     "status": "captured"
+   },
+   "2026-11-24": {
+    "cutoff_utc": "2026-11-23T23:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.233204,
+    "run_id": "20261123T225217Z-295585",
+    "status": "captured"
    }
   },
   "NY": {
@@ -590,6 +600,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.202972,
     "run_id": "20261122T225213Z-138e9e",
+    "status": "captured"
+   },
+   "2026-11-24": {
+    "cutoff_utc": "2026-11-23T23:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.233204,
+    "run_id": "20261123T225217Z-295585",
     "status": "captured"
    }
   }
@@ -1025,6 +1045,16 @@
    "target_date": "2026-11-23",
    "versions": 0
   },
+  "KXHIGHMIA-26NOV24": {
+   "city": "MIA",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-23T23:00:01.442294+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-25T05:00:00.000000+00:00",
+   "target_date": "2026-11-24",
+   "versions": 0
+  },
   "KXHIGHNY-26NOV12": {
    "city": "NY",
    "done": true,
@@ -1123,6 +1153,16 @@
    "last_sig": null,
    "poll_after": "2026-11-24T05:00:00.000000+00:00",
    "target_date": "2026-11-23",
+   "versions": 0
+  },
+  "KXHIGHNY-26NOV24": {
+   "city": "NY",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-23T23:00:01.442294+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-25T05:00:00.000000+00:00",
+   "target_date": "2026-11-24",
    "versions": 0
   }
  },
