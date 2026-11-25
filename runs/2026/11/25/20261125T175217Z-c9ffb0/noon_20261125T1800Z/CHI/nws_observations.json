@@ -1,0 +1,4899 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T17:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T17:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T17:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 29.628,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 38.88,
+                    "qualityControl": "C"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103149.4,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.2027157543222222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1066.8
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T17:00:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T17:00:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T17:00:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 29.628,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 38.88,
+                    "qualityControl": "S"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.2027157543222222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1066.8
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:55:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:55:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:55:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 27.792,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103250.99,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.0314803430533332,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1066.8
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:50:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:50:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:50:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103250.99,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1005.84
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 29.628,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103250.99,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.2027157543222222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1005.84
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:30:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:30:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:30:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.084,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 60.311060569484,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -0.6544639498883333,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1005.84
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:25:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:25:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:25:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 42.588,
+                    "qualityControl": "S"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1005.84
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:20:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:20:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:20:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103183.26,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:05:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:05:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:05:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:00:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T16:00:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T16:00:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103217.12,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T15:53:00+00:00",
+                "rawMessage": "KMDW 251553Z 09016G25KT 10SM FEW027 BKN038 OVC250 04/M02 A3048 RMK AO2 SLP330 T00441022",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4.4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103220,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103300,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 62.22531255064,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T15:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.084,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -0.6544639498883333,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1097.28
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T15:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T15:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1097.28
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:55:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:55:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T14:55:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 822.96
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1097.28
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T14:53:00+00:00",
+                "rawMessage": "KMDW 251453Z 08014G21KT 10SM SCT027 BKN036 OVC250 04/M02 A3050 RMK AO2 SLP338 T00391022 56003",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3.9,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 25.92,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103290,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103380,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.445125336126,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -0.9756471273116667,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T14:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 29.628,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.2027157543222222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 853.44
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1097.28
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T14:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T14:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 4,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 25.92,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.945601027543,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -0.8468081746455556,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 853.44
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1097.28
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T13:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T13:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T13:53:00+00:00",
+                "rawMessage": "KMDW 251353Z 08013KT 10SM FEW029 SCT038 OVC250 03/M03 A3050 RMK AO2 SLP339 T00331028",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3.3,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.8,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103290,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103390,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.305425457254,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 880
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1160
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T13:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T13:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T13:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 20.376,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.714825534266,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.4882793873338889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 883.92
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T12:55:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T12:55:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T12:55:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 69.480096758187,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9032623844127778,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 883.92
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1158.24
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T12:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T12:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T12:53:00+00:00",
+                "rawMessage": "KMDW 251253Z 10009KT 10SM FEW029 SCT038 OVC250 02/M03 A3051 RMK AO2 SLP342 T00221028",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.8,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 16.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103320,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103420,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 69.521786837686,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9442879549522223,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 880
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1160
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T11:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T11:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T11:53:00+00:00",
+                "rawMessage": "KMDW 251153Z COR 09004KT 10SM FEW027 OVC250 01/M04 A3051 RMK AO2 SLP343 T00111039 10022 20006 52004",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3.9,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103320,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103430,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 69.291521433314,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.292056229541111,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 820
+                        },
+                        "amount": "FEW"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T11:45:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T11:45:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T11:45:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -4,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 64.482018531034,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -0.7197161296461111,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1066.8
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:30:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:30:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:30:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9067648151344445,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1066.8
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:25:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:25:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:25:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 130,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9067648151344445,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:20:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:20:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:20:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.124,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.3751813479533332,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.124,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.3751813479533332,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:10:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:10:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:10:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 130,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 12.96,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.774124508325,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:05:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:05:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:05:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3.134670275153889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:00:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T10:00:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T10:00:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -3.134670275153889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T09:53:00+00:00",
+                "rawMessage": "KMDW 250953Z 11008KT 10SM OVC250 01/M06 A3050 RMK AO2 SLP338 T00111061",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.76,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103290,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103380,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 58.674467584996,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.9984372564966666,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:20:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:20:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T09:20:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 90,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103250.99,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9067648151344445,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T09:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T09:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 80,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 9.252,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103250.99,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.550291042629,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9067648151344445,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T08:53:00+00:00",
+                "rawMessage": "KMDW 250853Z 10006KT 10SM OVC250 01/M06 A3050 RMK AO2 SLP339 T00111061 56009",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.16,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103290,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103390,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 58.674467584996,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.2630914965016666,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T08:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.124,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103284.85,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.161298117581,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.3751813479533332,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T08:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.161298117581,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.3623956646516666,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:10:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:10:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T08:10:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 130,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 7.416,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.161298117581,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.3623956646516666,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:05:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T08:05:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T08:05:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 11.124,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.161298117581,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -2.3751813479533332,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T07:15:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T07:15:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T07:15:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 12.96,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103318.72,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 51.348169519678,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.5557416624216667,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:53:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:53:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:53:00+00:00",
+                "rawMessage": "KMDW 250653Z 10007KT 10SM BKN250 02/M07 A3052 RMK AO2 SLP344 T00171067",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 100,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 12.96,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103350,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103440,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 53.682841197994,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9212565161927777,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 7620
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:40:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:40:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:40:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103352.59,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 51.348169519678,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9032623844127778,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1127.76
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:35:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 12.96,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103352.59,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.433765044563,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.5557416624216667,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1127.76
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:25:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:25:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:25:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 12.96,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103386.45,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.433765044563,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.5557416624216667,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1127.76
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:20:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:20:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:20:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -6,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 110,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103386.45,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 55.433765044563,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9032623844127778,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1127.76
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:00:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.75,
+                    41.78
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KMDW/observations/2026-11-25T06:00:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 190
+                },
+                "station": "https://api.weather.gov/stations/KMDW",
+                "stationId": "KMDW",
+                "stationName": "Chicago, Chicago Midway Airport",
+                "timestamp": "2026-11-25T06:00:00+00:00",
+                "rawMessage": "",
+                "textDescription": "Mostly Clear",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -5,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 120,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 14.832,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103386.45,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16093.44,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 59.805954669926,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": -1.9032623844127778,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 1127.76
+                        },
+                        "amount": "FEW"
+                    }
+                ]
+            }
+        }
+    ],
+    "pagination": {
+        "next": "https://api.weather.gov/stations/KMDW/observations?cursor=eyJzIjoiMjAyNi0xMS0yNVQwNjowMDowMCswMDowMCJ9"
+    }
+}
