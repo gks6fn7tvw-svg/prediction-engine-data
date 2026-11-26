@@ -1,0 +1,1636 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T15:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T15:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T15:51:00+00:00",
+                "rawMessage": "KNYC 261551Z AUTO 07009G29KT 040V110 9SM -RA OVC100 06/03 A3032 RMK AO2 PK WND 06035/1526 SLP258 P0002 T00610033 $",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3.3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 16.56,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102680,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102580,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 14480,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 82.248266054167,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.90051615688,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T15:01:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T15:01:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T15:01:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 3.3,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102810,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 9660,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 82.248266054167,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T14:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T14:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T14:51:00+00:00",
+                "rawMessage": "",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.8,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102810,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102740,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 9660,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 79.390286642183,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T13:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T13:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T13:51:00+00:00",
+                "rawMessage": "KNYC 261351Z AUTO 06018G32KT 10SM OVC017 06/02 A3041 RMK AO2 PK WND 05034/1338 SLP290 T00610022 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102980,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 102900,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 76.077010996322,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 520
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T12:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T12:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T12:51:00+00:00",
+                "rawMessage": "KNYC 261251Z AUTO 07013G29KT 040V110 10SM OVC017 06/02 A3044 RMK AO2 PK WND 05033/1245 SLP301 T00610017 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.12,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103080,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103010,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 73.410101373817,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.031231052867222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 520
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T11:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T11:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T11:51:00+00:00",
+                "rawMessage": "KNYC 261151Z AUTO 06016G32KT 030V090 10SM OVC016 06/02 A3046 RMK AO2 PK WND 07035/1139 SLP307 T00610017 10067 20056 58032 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 29.52,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103150,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103070,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 73.410101373817,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.5421715206788889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 490
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T09:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T09:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T09:51:00+00:00",
+                "rawMessage": "KNYC 260951Z AUTO 06013G27KT 10SM OVC017 06/02 A3054 RMK AO2 PK WND 06028/0904 SLP332 T00610017 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.12,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103420,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103320,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 73.410101373817,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.031231052867222,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 520
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T08:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T08:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T08:51:00+00:00",
+                "rawMessage": "KNYC 260851Z AUTO 06012G22KT 10SM OVC018 06/01 A3056 RMK AO2 PK WND 05030/0834 SLP339 T00610011 58019 $",
+                "textDescription": "",
+                "icon": null,
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 22.32,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103490,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103390,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 70.319357088131,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2148219453911113,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": []
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T07:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T07:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T07:51:00+00:00",
+                "rawMessage": "KNYC 260751Z AUTO 05011G25KT 10SM OVC018 06/02 A3059 RMK AO2 PK WND 06031/0701 SLP349 T00610017 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 50,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 20.52,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103590,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103490,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 73.410101373817,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.4113011160505557,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 550
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T06:51:00+00:00",
+                "rawMessage": "KNYC 260651Z AUTO 07012G24KT 10SM OVC018 07/02 A3060 RMK AO2 PK WND 03026/0603 SLP355 T00670022 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 22.32,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103620,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103550,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 72.99849708106,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.978396043521111,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 550
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:35:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:35:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T06:35:00+00:00",
+                "rawMessage": "KNYC 260635Z AUTO 06013G25KT 10SM BKN019 BKN024 07/02 A3060 RMK AO2 PK WND 03026/0603 T00670022 $",
+                "textDescription": "Mostly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.2,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.12,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103620,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 72.99849708106,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.799683354908889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 580
+                        },
+                        "amount": "BKN"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 730
+                        },
+                        "amount": "BKN"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:17:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T06:17:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T06:17:00+00:00",
+                "rawMessage": "KNYC 260617Z AUTO 06013G22KT 10SM SCT021 07/02 A3061 RMK AO2 PK WND 03026/0603 T00670017 $",
+                "textDescription": "Partly Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 24.12,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103660,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 70.439505977909,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.799683354908889,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 640
+                        },
+                        "amount": "SCT"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T05:51:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T05:51:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T05:51:00+00:00",
+                "rawMessage": "KNYC 260551Z AUTO 07012G23KT 10SM BKN019 OVC029 07/02 A3061 RMK AO2 SLP359 T00670017 10067 20061 56017 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.7,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.7,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 70,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 22.32,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 42.48,
+                    "qualityControl": "S"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103660,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103590,
+                    "qualityControl": "V"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 70.439505977909,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.978396043521111,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 580
+                        },
+                        "amount": "BKN"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 880
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T05:30:00+00:00",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.98,
+                    40.77
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/stations/KNYC/observations/2026-11-26T05:30:00+00:00",
+                "@type": "wx:ObservationStation",
+                "elevation": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 27
+                },
+                "station": "https://api.weather.gov/stations/KNYC",
+                "stationId": "KNYC",
+                "stationName": "New York City, Central Park",
+                "timestamp": "2026-11-26T05:30:00+00:00",
+                "rawMessage": "KNYC 260530Z AUTO 06010G15KT 020V090 10SM SCT020 OVC028 06/01 A3062 RMK AO2 T00610011 $",
+                "textDescription": "Cloudy",
+                "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+                "presentWeather": [],
+                "temperature": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 6.1,
+                    "qualityControl": "V"
+                },
+                "dewpoint": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 1.1,
+                    "qualityControl": "V"
+                },
+                "windDirection": {
+                    "unitCode": "wmoUnit:degree_(angle)",
+                    "value": 60,
+                    "qualityControl": "V"
+                },
+                "windSpeed": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 18.36,
+                    "qualityControl": "V"
+                },
+                "windGust": {
+                    "unitCode": "wmoUnit:km_h-1",
+                    "value": 27.72,
+                    "qualityControl": "C"
+                },
+                "barometricPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": 103690,
+                    "qualityControl": "V"
+                },
+                "seaLevelPressure": {
+                    "unitCode": "wmoUnit:Pa",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "visibility": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 16090,
+                    "qualityControl": "C"
+                },
+                "maxTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "minTemperatureLast24Hours": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null
+                },
+                "precipitationLastHour": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast3Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "precipitationLast6Hours": {
+                    "unitCode": "wmoUnit:mm",
+                    "value": null,
+                    "qualityControl": "Z"
+                },
+                "relativeHumidity": {
+                    "unitCode": "wmoUnit:percent",
+                    "value": 70.319357088131,
+                    "qualityControl": "V"
+                },
+                "windChill": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": 2.6671769913866665,
+                    "qualityControl": "V"
+                },
+                "heatIndex": {
+                    "unitCode": "wmoUnit:degC",
+                    "value": null,
+                    "qualityControl": "V"
+                },
+                "cloudLayers": [
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 610
+                        },
+                        "amount": "SCT"
+                    },
+                    {
+                        "base": {
+                            "unitCode": "wmoUnit:m",
+                            "value": 850
+                        },
+                        "amount": "OVC"
+                    }
+                ]
+            }
+        }
+    ],
+    "pagination": {
+        "next": "https://api.weather.gov/stations/KNYC/observations?cursor=eyJzIjoiMjAyNi0xMS0yNlQwNTozMDowMCswMDowMCJ9"
+    }
+}
