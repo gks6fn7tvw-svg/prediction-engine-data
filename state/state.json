@@ -5,8 +5,8 @@
    "saved_at": "2026-11-27T23:00:04.696920+00:00"
   },
   "DEN": {
-   "last_sha256": "777db9c1717af642c3c8fdc271bd43cf677a2a0c6e87709dd037dbe2361e4e35",
-   "saved_at": "2026-11-27T14:52:22.691141+00:00"
+   "last_sha256": "bdd8ad668236fed480e642cc3cadc028ed3d608ec882fb85dc1ce5902fcd8a12",
+   "saved_at": "2026-11-28T00:00:11.488426+00:00"
   },
   "LAX": {
    "last_sha256": "bd8a6cc7467f2999d85f331e8084d7d97b891d66b9eae237fd7812bf7ec0af72",
@@ -175,6 +175,16 @@
     "reason_code": "on_time",
     "receipt_lateness_seconds": 0.161189,
     "run_id": "20261126T235219Z-bffc9f",
+    "status": "captured"
+   },
+   "2026-11-28": {
+    "cutoff_utc": "2026-11-28T00:00:00.000000+00:00",
+    "eligible": true,
+    "paper_fill_eligible": true,
+    "paper_fill_reason": "complete_recheck",
+    "reason_code": "on_time",
+    "receipt_lateness_seconds": 0.170587,
+    "run_id": "20261127T235219Z-bab269",
     "status": "captured"
    }
   },
@@ -958,6 +968,16 @@
    "last_sig": null,
    "poll_after": "2026-11-28T06:00:00.000000+00:00",
    "target_date": "2026-11-27",
+   "versions": 0
+  },
+  "KXHIGHCHI-26NOV28": {
+   "city": "CHI",
+   "done": false,
+   "final_at": null,
+   "first_seen": "2026-11-28T00:00:01.339678+00:00",
+   "last_sig": null,
+   "poll_after": "2026-11-29T06:00:00.000000+00:00",
+   "target_date": "2026-11-28",
    "versions": 0
   },
   "KXHIGHDEN-26NOV12": {
